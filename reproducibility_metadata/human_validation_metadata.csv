@@ -1,0 +1,16 @@
+field,value,notes
+collection_platform,Credamo (Jianshu),All latest professional questionnaires were collected on the Credamo/Jianshu online survey platform.
+compensation,RMB 15 per completed questionnaire,Compensation was paid for completed questionnaires.
+consent_and_ethics,informed consent in questionnaire front matter; voluntary anonymous submission,"Participants were informed of academic research use, anonymization, and compensation before submission; raw platform identifiers are withheld."
+scoring_mode,independent blinded scoring,"Validators did not see model names, generator identities, LLM-judge scores, or other validators ratings."
+domain_qualification,self-reported field/professional direction and domain familiarity,Two low-familiarity geoscience completions are excluded from the primary reference.
+completed_professional_questionnaires,50,Five latest anonymized survey exports were processed outside the review package; raw xlsx files are excluded.
+primary_validators,48,Domain-qualified validators retained in the primary reference.
+primary_item_level_evaluations,1728,Formal validator-item rows used by the current manuscript.
+professional_reference_items,180,Stratified item set used for professional-reference alignment.
+ratings_per_item,8-10,Each item has 8 to 10 primary professional ratings.
+repeated_check_absolute_difference,quality 0.381; risk 0.375,Reported in the manuscript audit table.
+domain_rater_pairwise_spearman,quality 0.314; risk 0.274,Reported in the manuscript audit table.
+split_half_item_mean_reliability,Spearman-Brown quality 0.885; risk 0.713,Computed from random within-domain validator splits; see robustness_checks/professional_split_half_reliability.csv.
+primary_reference_file,main_study_data/professional_reference_scores_1728_expanded.csv,Expanded anonymized professional-reference score rows.
+expanded_processing_folder,robustness_checks/expanded_professional_reference_from_latest_data/,"Reliability, repeat checks, all-50 sensitivity, and expanded-reference API diagnostics."

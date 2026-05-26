@@ -1,0 +1,17 @@
+file,exists,rows,bytes
+case_disagreement_examples.csv,True,29,4706
+codebook.csv,True,21,2957
+dimension_gap_summary.csv,True,6,1013
+dimension_gap_summary_expanded_reference.csv,True,6,1013
+domain_gap_summary.csv,True,5,1168
+generated_items_810.csv,True,810,708658
+generator_rank_alignment.csv,True,9,615
+human_ai_item_alignment_180_expanded_reference.csv,True,180,39435
+judge_human_alignment.csv,True,9,661
+llm_judge_scores_6929.csv,True,6929,778937
+professional_reference_scores_1728_expanded.csv,True,1728,181039
+qualitative_themes.csv,True,8,752
+stats_summary.json,True,,2365
+task_domain_gap_matrix.csv,True,15,2241
+task_gap_summary.csv,True,3,631
+third_party_mechanism_validation.csv,True,216,29273

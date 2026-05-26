@@ -1,0 +1,73 @@
+judge_provider,paper_model_label,case_id,domain,concept,hidden_intervention,expected_quality_preference,expected_riskier_version,quality_choice,risk_choice,quality_aligned,risk_aligned,both_aligned,quality_gap_expected_minus_other,risk_gap_expected_minus_other,quality_A,quality_B,risk_A,risk_B
+anthropic,Claude Sonnet 4.6,A01,Physics,Projectile motion,boundary condition,A,B,B,tie,False,False,False,-0.20000000000000018,0.0,2.8,3.0,3.0,3.0
+anthropic,Claude Sonnet 4.6,A02,Physics,Net force and acceleration,causal distinction,A,B,A,B,True,True,True,2.8000000000000003,3.0,4.2,1.4,2.0,5.0
+anthropic,Claude Sonnet 4.6,A03,Biology,Evolution has no predetermined goal,misconception repair depth,B,A,B,A,True,True,True,1.2000000000000002,1.0,3.0,4.2,3.0,2.0
+anthropic,Claude Sonnet 4.6,A04,Biology,Photosynthesis and cellular respiration,mechanism and boundary,B,A,B,A,True,True,True,2.0,3.0,1.6,3.6,5.0,2.0
+anthropic,Claude Sonnet 4.6,A05,Geoscience,Geological time,analogy boundary,A,B,A,B,True,True,True,1.9999999999999998,3.0,3.8,1.8,2.0,5.0
+anthropic,Claude Sonnet 4.6,A06,Climate/Environment,Weather and climate,scale distinction,A,B,A,B,True,True,True,2.6,3.0,4.0,1.4,2.0,5.0
+anthropic,Claude Sonnet 4.6,A07,Chemistry,Chemical equilibrium,dynamic mechanism,A,B,A,B,True,True,True,2.4,3.0,4.0,1.6,2.0,5.0
+anthropic,Claude Sonnet 4.6,A08,Climate/Environment,Greenhouse effect,format compliance vs semantic accuracy,B,A,B,A,True,True,True,1.7999999999999998,3.0,2.0,3.8,5.0,2.0
+deepseek,DeepSeek-V4 Expert Mode,A01,Physics,Projectile motion,boundary condition,A,B,B,tie,False,False,False,-0.20000000000000018,0.0,3.4,3.6,2.0,2.0
+deepseek,DeepSeek-V4 Expert Mode,A02,Physics,Net force and acceleration,causal distinction,A,B,A,B,True,True,True,2.1999999999999997,3.0,4.8,2.6,1.0,4.0
+deepseek,DeepSeek-V4 Expert Mode,A03,Biology,Evolution has no predetermined goal,misconception repair depth,B,A,B,A,True,True,True,1.7999999999999998,1.0,3.0,4.8,2.0,1.0
+deepseek,DeepSeek-V4 Expert Mode,A04,Biology,Photosynthesis and cellular respiration,mechanism and boundary,B,A,B,A,True,True,True,2.4,3.0,1.4,3.8,5.0,2.0
+deepseek,DeepSeek-V4 Expert Mode,A05,Geoscience,Geological time,analogy boundary,A,B,A,B,True,True,True,2.4000000000000004,4.0,4.4,2.0,1.0,5.0
+deepseek,DeepSeek-V4 Expert Mode,A06,Climate/Environment,Weather and climate,scale distinction,A,B,A,B,True,True,True,3.4,4.0,4.8,1.4,1.0,5.0
+deepseek,DeepSeek-V4 Expert Mode,A07,Chemistry,Chemical equilibrium,dynamic mechanism,A,B,A,B,True,True,True,2.8,4.0,4.6,1.8,1.0,5.0
+deepseek,DeepSeek-V4 Expert Mode,A08,Climate/Environment,Greenhouse effect,format compliance vs semantic accuracy,B,A,B,A,True,True,True,2.8,4.0,1.8,4.6,5.0,1.0
+doubao,Doubao 2.0 Pro,A01,Physics,Projectile motion,boundary condition,A,B,B,B,False,True,False,-0.20000000000000018,1.0,4.0,4.2,1.0,2.0
+doubao,Doubao 2.0 Pro,A02,Physics,Net force and acceleration,causal distinction,A,B,A,B,True,True,True,2.6,4.0,4.2,1.6,1.0,5.0
+doubao,Doubao 2.0 Pro,A03,Biology,Evolution has no predetermined goal,misconception repair depth,B,A,B,A,True,True,True,1.3999999999999995,1.0,3.2,4.6,2.0,1.0
+doubao,Doubao 2.0 Pro,A04,Biology,Photosynthesis and cellular respiration,mechanism and boundary,B,A,B,A,True,True,True,1.7999999999999998,3.0,2.2,4.0,5.0,2.0
+doubao,Doubao 2.0 Pro,A05,Geoscience,Geological time,analogy boundary,A,B,A,B,True,True,True,2.2,4.0,4.0,1.8,1.0,5.0
+doubao,Doubao 2.0 Pro,A06,Climate/Environment,Weather and climate,scale distinction,A,B,A,B,True,True,True,3.0,4.0,4.8,1.8,1.0,5.0
+doubao,Doubao 2.0 Pro,A07,Chemistry,Chemical equilibrium,dynamic mechanism,A,B,A,B,True,True,True,2.8000000000000003,3.0,4.4,1.6,2.0,5.0
+doubao,Doubao 2.0 Pro,A08,Climate/Environment,Greenhouse effect,format compliance vs semantic accuracy,B,A,B,A,True,True,True,2.4000000000000004,4.0,2.0,4.4,5.0,1.0
+gemini,Gemini 3.1 Pro,A01,Physics,Projectile motion,boundary condition,A,B,A,B,True,True,True,0.7999999999999998,1.0,5.0,4.2,1.0,2.0
+gemini,Gemini 3.1 Pro,A02,Physics,Net force and acceleration,causal distinction,A,B,A,B,True,True,True,3.2,4.0,5.0,1.8,1.0,5.0
+gemini,Gemini 3.1 Pro,A03,Biology,Evolution has no predetermined goal,misconception repair depth,B,A,B,tie,True,False,False,0.7999999999999998,0.0,4.2,5.0,1.0,1.0
+gemini,Gemini 3.1 Pro,A04,Biology,Photosynthesis and cellular respiration,mechanism and boundary,B,A,B,A,True,True,True,2.8,4.0,2.2,5.0,5.0,1.0
+gemini,Gemini 3.1 Pro,A05,Geoscience,Geological time,analogy boundary,A,B,A,B,True,True,True,2.8,4.0,4.8,2.0,1.0,5.0
+gemini,Gemini 3.1 Pro,A06,Climate/Environment,Weather and climate,scale distinction,A,B,A,B,True,True,True,3.4,4.0,5.0,1.6,1.0,5.0
+gemini,Gemini 3.1 Pro,A07,Chemistry,Chemical equilibrium,dynamic mechanism,A,B,A,B,True,True,True,3.0,4.0,5.0,2.0,1.0,5.0
+gemini,Gemini 3.1 Pro,A08,Climate/Environment,Greenhouse effect,format compliance vs semantic accuracy,B,A,B,A,True,True,True,2.8,4.0,2.2,5.0,5.0,1.0
+glm,GLM-5.1,A01,Physics,Projectile motion,boundary condition,A,B,A,tie,True,False,False,0.20000000000000018,0.0,4.2,4.0,3.0,3.0
+glm,GLM-5.1,A02,Physics,Net force and acceleration,causal distinction,A,B,A,B,True,True,True,3.2,4.0,5.0,1.8,1.0,5.0
+glm,GLM-5.1,A03,Biology,Evolution has no predetermined goal,misconception repair depth,B,A,B,tie,True,False,False,0.7999999999999998,0.0,4.2,5.0,1.0,1.0
+glm,GLM-5.1,A04,Biology,Photosynthesis and cellular respiration,mechanism and boundary,B,A,B,A,True,True,True,2.1999999999999997,4.0,2.6,4.8,5.0,1.0
+glm,GLM-5.1,A05,Geoscience,Geological time,analogy boundary,A,B,A,B,True,True,True,3.0,4.0,5.0,2.0,1.0,5.0
+glm,GLM-5.1,A06,Climate/Environment,Weather and climate,scale distinction,A,B,A,B,True,True,True,3.4,4.0,5.0,1.6,1.0,5.0
+glm,GLM-5.1,A07,Chemistry,Chemical equilibrium,dynamic mechanism,A,B,A,B,True,True,True,2.8,4.0,4.8,2.0,1.0,5.0
+glm,GLM-5.1,A08,Climate/Environment,Greenhouse effect,format compliance vs semantic accuracy,B,A,B,A,True,True,True,3.2,4.0,1.8,5.0,5.0,1.0
+kimi,Kimi K2.6 Thinking,A01,Physics,Projectile motion,boundary condition,A,B,A,B,True,True,True,0.6000000000000001,2.0,4.2,3.6,1.0,3.0
+kimi,Kimi K2.6 Thinking,A02,Physics,Net force and acceleration,causal distinction,A,B,A,B,True,True,True,3.6,4.0,5.0,1.4,1.0,5.0
+kimi,Kimi K2.6 Thinking,A03,Biology,Evolution has no predetermined goal,misconception repair depth,B,A,B,A,True,True,True,1.0,1.0,3.8,4.8,2.0,1.0
+kimi,Kimi K2.6 Thinking,A04,Biology,Photosynthesis and cellular respiration,mechanism and boundary,B,A,B,A,True,True,True,2.1999999999999997,4.0,2.6,4.8,5.0,1.0
+kimi,Kimi K2.6 Thinking,A05,Geoscience,Geological time,analogy boundary,A,B,A,B,True,True,True,2.0,4.0,4.8,2.8,1.0,5.0
+kimi,Kimi K2.6 Thinking,A06,Climate/Environment,Weather and climate,scale distinction,A,B,A,B,True,True,True,3.6,4.0,5.0,1.4,1.0,5.0
+kimi,Kimi K2.6 Thinking,A07,Chemistry,Chemical equilibrium,dynamic mechanism,A,B,A,B,True,True,True,2.4,4.0,4.8,2.4,1.0,5.0
+kimi,Kimi K2.6 Thinking,A08,Climate/Environment,Greenhouse effect,format compliance vs semantic accuracy,B,A,B,A,True,True,True,3.2,4.0,1.8,5.0,5.0,1.0
+mimo,Mimo v2.5 Pro,A01,Physics,Projectile motion,boundary condition,A,B,B,tie,False,False,False,-1.0,0.0,3.2,4.2,2.0,2.0
+mimo,Mimo v2.5 Pro,A02,Physics,Net force and acceleration,causal distinction,A,B,A,B,True,True,True,3.1999999999999997,4.0,4.6,1.4,1.0,5.0
+mimo,Mimo v2.5 Pro,A03,Biology,Evolution has no predetermined goal,misconception repair depth,B,A,B,tie,True,False,False,0.20000000000000018,0.0,4.6,4.8,1.0,1.0
+mimo,Mimo v2.5 Pro,A04,Biology,Photosynthesis and cellular respiration,mechanism and boundary,B,A,B,A,True,True,True,2.6,3.0,1.6,4.2,5.0,2.0
+mimo,Mimo v2.5 Pro,A05,Geoscience,Geological time,analogy boundary,A,B,A,B,True,True,True,3.1999999999999997,4.0,4.6,1.4,1.0,5.0
+mimo,Mimo v2.5 Pro,A06,Climate/Environment,Weather and climate,scale distinction,A,B,A,B,True,True,True,3.4,4.0,4.8,1.4,1.0,5.0
+mimo,Mimo v2.5 Pro,A07,Chemistry,Chemical equilibrium,dynamic mechanism,A,B,A,B,True,True,True,3.1999999999999997,4.0,4.6,1.4,1.0,5.0
+mimo,Mimo v2.5 Pro,A08,Climate/Environment,Greenhouse effect,format compliance vs semantic accuracy,B,A,B,A,True,True,True,2.8,4.0,1.8,4.6,5.0,1.0
+openai,GPT-5.5 Thinking,A01,Physics,Projectile motion,boundary condition,A,B,A,B,True,True,True,0.5999999999999996,1.0,4.8,4.2,1.0,2.0
+openai,GPT-5.5 Thinking,A02,Physics,Net force and acceleration,causal distinction,A,B,A,B,True,True,True,2.6000000000000005,3.0,4.4,1.8,2.0,5.0
+openai,GPT-5.5 Thinking,A03,Biology,Evolution has no predetermined goal,misconception repair depth,B,A,B,A,True,True,True,0.5999999999999996,1.0,4.2,4.8,2.0,1.0
+openai,GPT-5.5 Thinking,A04,Biology,Photosynthesis and cellular respiration,mechanism and boundary,B,A,B,A,True,True,True,2.8,4.0,2.0,4.8,5.0,1.0
+openai,GPT-5.5 Thinking,A05,Geoscience,Geological time,analogy boundary,A,B,A,B,True,True,True,2.5999999999999996,4.0,4.8,2.2,1.0,5.0
+openai,GPT-5.5 Thinking,A06,Climate/Environment,Weather and climate,scale distinction,A,B,A,B,True,True,True,3.0,4.0,4.8,1.8,1.0,5.0
+openai,GPT-5.5 Thinking,A07,Chemistry,Chemical equilibrium,dynamic mechanism,A,B,A,B,True,True,True,2.4000000000000004,3.0,4.4,2.0,2.0,5.0
+openai,GPT-5.5 Thinking,A08,Climate/Environment,Greenhouse effect,format compliance vs semantic accuracy,B,A,B,A,True,True,True,2.8,4.0,2.0,4.8,5.0,1.0
+qwen,Qwen3.5 Thinking,A01,Physics,Projectile motion,boundary condition,A,B,A,tie,True,False,False,0.39999999999999947,0.0,4.8,4.4,1.0,1.0
+qwen,Qwen3.5 Thinking,A02,Physics,Net force and acceleration,causal distinction,A,B,A,B,True,True,True,3.1999999999999997,4.0,4.8,1.6,1.0,5.0
+qwen,Qwen3.5 Thinking,A03,Biology,Evolution has no predetermined goal,misconception repair depth,B,A,B,A,True,True,True,1.0,1.0,3.8,4.8,2.0,1.0
+qwen,Qwen3.5 Thinking,A04,Biology,Photosynthesis and cellular respiration,mechanism and boundary,B,A,B,A,True,True,True,3.0,4.0,1.8,4.8,5.0,1.0
+qwen,Qwen3.5 Thinking,A05,Geoscience,Geological time,analogy boundary,A,B,A,B,True,True,True,2.1999999999999997,3.0,4.8,2.6,1.0,4.0
+qwen,Qwen3.5 Thinking,A06,Climate/Environment,Weather and climate,scale distinction,A,B,A,B,True,True,True,3.4,4.0,4.8,1.4,1.0,5.0
+qwen,Qwen3.5 Thinking,A07,Chemistry,Chemical equilibrium,dynamic mechanism,A,B,A,B,True,True,True,2.8,4.0,4.6,1.8,1.0,5.0
+qwen,Qwen3.5 Thinking,A08,Climate/Environment,Greenhouse effect,format compliance vs semantic accuracy,B,A,B,A,True,True,True,2.4,4.0,2.4,4.8,5.0,1.0

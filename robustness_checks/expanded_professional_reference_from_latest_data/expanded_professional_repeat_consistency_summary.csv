@@ -1,0 +1,3 @@
+﻿reference,n_repeat_comparisons,quality_abs_diff_mean,quality_abs_diff_median,risk_abs_diff_mean,risk_abs_diff_median
+all50,100,0.36999999999999994,0.20000000000000018,0.4,0.0
+primary48,96,0.3812499999999999,0.2999999999999998,0.375,0.0

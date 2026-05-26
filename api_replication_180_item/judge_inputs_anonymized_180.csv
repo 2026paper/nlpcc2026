@@ -1,0 +1,301 @@
+item_id,domain,concept,task_type,generated_text
+ITEM_004,Physics,抛体运动,A,"text: 水平匀速与竖直自由落体的合成运动。
+misconception: 水平运动需要持续受力
+correction: 水平方向不受力，仅靠惯性匀速运动。"
+ITEM_010,Chemistry,化学反应与物理变化,A,"text: 化学反应生成新物质，物理变化不生成。
+misconception: 发光发热就是化学变化
+correction: 灯泡发光发热是物理变化，未生成新物质。"
+ITEM_016,Biology,遗传信息与性状,A,"text: 基因决定性状，但环境也会影响表现。
+misconception: 基因决定一切，环境没影响
+correction: 性状是基因与环境共同作用的结果。"
+ITEM_022,Geoscience,地震成因,A,"text: 板块间应力积累超过岩石强度引发震动。
+misconception: 地震是地底空洞塌陷造成的
+correction: 地震主要源于板块挤压断裂释放的巨大能量。"
+ITEM_028,Climate/Environment,二氧化碳的气候作用,A,"text: 二氧化碳是主要温室气体，调节地球温度。
+misconception: 二氧化碳只占0.04%，影响微乎其微
+correction: 微量二氧化碳对温室效应起决定性作用。"
+ITEM_063,Physics,牛顿第三定律,C,answer: A
+ITEM_064,Physics,抛体运动,C,answer: C
+ITEM_069,Chemistry,相变,C,answer: B
+ITEM_070,Chemistry,化学反应与物理变化,C,answer: C
+ITEM_075,Biology,随机变异与非随机选择,C,answer: C
+ITEM_076,Biology,遗传信息与性状,C,answer: B
+ITEM_081,Geoscience,岩石循环,C,answer: B
+ITEM_082,Geoscience,地震成因,C,answer: B
+ITEM_087,Climate/Environment,全球变暖与气候变化,C,answer: B
+ITEM_088,Climate/Environment,二氧化碳的气候作用,C,answer: B
+ITEM_092,Physics,净力与加速度,A,"text: 加速度由合外力决定，合外力为零时加速度为零，物体不一定静止。
+misconception: 有速度就有力，静止就没有力
+correction: 加速度为零只说明合外力为零，不代表无力。"
+ITEM_096,Physics,摩擦力与运动,A,"text: 摩擦力可以与运动方向相同，静摩擦力也可以是驱动力。
+misconception: 摩擦力总是阻碍运动
+correction: 摩擦力阻碍的是相对滑动趋势，并非一定反向于运动。"
+ITEM_098,Chemistry,物质微粒观,A,"text: 物质由原子、分子等微粒构成，微粒之间有间隔，处于不断运动中。
+misconception: 物质是连续的，可以无限分割
+correction: 物质有最小结构单元，不能无限分割。"
+ITEM_102,Chemistry,溶液浓度与稀释,A,"text: 稀释溶液时，溶质的量不变，溶剂增多，浓度降低。
+misconception: 浓度减半只需加等量水
+correction: 浓度减半需使溶液总体积翻倍，而非仅加等量水。"
+ITEM_104,Biology,进化没有预设目标,A,"text: 进化是自然选择对随机变异的筛选结果，没有方向，也没有终点。
+misconception: 进化是朝着“更高级”方向前进的
+correction: 进化无目标，只反映对当前环境的适应程度。"
+ITEM_108,Biology,光合作用与细胞呼吸,A,"text: 植物既进行光合作用储存能量，也进行细胞呼吸释放能量，两者同时存在。
+misconception: 植物白天呼吸，晚上光合
+correction: 光合作用需要光，细胞呼吸全天进行，两者不互斥。"
+ITEM_110,Geoscience,地质时间,A,"text: 地球历史约46亿年，人类出现的时间相对于地质时间极为短暂。
+misconception: 地球历史与人类历史时间尺度相近
+correction: 地质时间以百万年计，人类历史仅占其极小片段。"
+ITEM_114,Geoscience,地球内部结构,A,"text: 地球由地壳、地幔、外核（液态）和内核（固态）组成，主要依据地震波推断。
+misconception: 地球内部是空心的或全部熔融
+correction: 地球内部分层，内核为固态铁镍，并非全部液态。"
+ITEM_116,Climate/Environment,天气与气候,A,"text: 天气是短时间的大气状态，气候是某地区长期的平均大气特征，两者时间尺度不同。
+misconception: 天气和气候是同一回事
+correction: 天气多变且短暂，气候反映长期统计规律。"
+ITEM_120,Climate/Environment,自然变率与人为影响,A,"text: 气候既受自然因素波动影响，也受人类活动干扰，当前变暖主要由人为排放驱动。
+misconception: 气候变化都是自然波动，与人类无关
+correction: 科学证据表明，近百年变暖主要由人类活动造成。"
+ITEM_125,Physics,圆周运动,B,"{""concept"": ""圆周运动"", ""id"": ""C05"", ""scene"": ""阿强甩石头，绳子一断石头飞出去，不是向外飞而是沿切线飞。"", ""tags"": [""向心力"", ""切线方向"", ""圆周""], ""title"": ""甩石头的绳"", ""warning"": ""没有所谓的'离心力'，松手是失去向心力。""}"
+ITEM_126,Physics,摩擦力与运动,B,"{""concept"": ""摩擦力与运动"", ""id"": ""C06"", ""scene"": ""小敏跑步，鞋底摩擦地面向后，地面摩擦力向前推着她跑。"", ""tags"": [""摩擦力"", ""驱动力"", ""相对滑动""], ""title"": ""鞋底推着走"", ""warning"": ""摩擦力不总是阻力，也可以是动力。""}"
+ITEM_131,Chemistry,化学键,B,"{""concept"": ""化学键"", ""id"": ""C11"", ""scene"": ""化学老师说，水变成氢气和氧气需要能量，因为要断开化学键。"", ""tags"": [""化学键"", ""断键吸能"", ""原子间力""], ""title"": ""断键要花力气"", ""warning"": ""化学键是原子间的力，不是分子之间的力。""}"
+ITEM_132,Chemistry,溶液浓度与稀释,B,"{""concept"": ""溶液浓度与稀释"", ""id"": ""C12"", ""scene"": ""小赵配药水，把100mL浓液稀释到一半浓度，加100mL水却不够。"", ""tags"": [""稀释"", ""浓度"", ""溶质不变""], ""title"": ""加水加多少"", ""warning"": ""浓度减半要让总体积翻倍，不只是加等量水。""}"
+ITEM_137,Biology,能量流动与物质循环,B,"{""concept"": ""能量流动与物质循环"", ""id"": ""C17"", ""scene"": ""小田吃牛肉，牛吃草，能量层层减少，但碳元素还在大气中循环。"", ""tags"": [""能量递减"", ""物质循环"", ""食物链""], ""title"": ""草→牛→人"", ""warning"": ""能量不可循环，物质可以，两者规律不同。""}"
+ITEM_138,Biology,光合作用与细胞呼吸,B,"{""concept"": ""光合作用与细胞呼吸"", ""id"": ""C18"", ""scene"": ""晚上没有光，植物停止光合，但还在呼吸消耗氧气，这让小丽很惊讶。"", ""tags"": [""光合作用"", ""细胞呼吸"", ""全天进行""], ""title"": ""植物的双面生活"", ""warning"": ""植物不只白天呼吸，细胞呼吸全天都在进行。""}"
+ITEM_143,Geoscience,火山与板块边界,B,"{""concept"": ""火山与板块边界"", ""id"": ""C23"", ""scene"": ""地图课上，同学发现火山几乎都在海岸边，老师说那是板块边界所在。"", ""tags"": [""火山"", ""板块边界"", ""俯冲带""], ""title"": ""环太平洋的火圈"", ""warning"": ""火山分布有规律，集中在板块边界，并非随机。""}"
+ITEM_144,Geoscience,地球内部结构,B,"{""concept"": ""地球内部结构"", ""id"": ""C24"", ""scene"": ""科学家用地震波“透视”地球，发现内核是固态铁镍，而非岩浆。"", ""tags"": [""地球内部"", ""地震波"", ""内核固态""], ""title"": ""没人去过地心"", ""warning"": ""地球内部不是全部熔融，内核是固态的。""}"
+ITEM_149,Climate/Environment,海洋垃圾与塑料污染,B,"{""concept"": ""海洋垃圾与塑料污染"", ""id"": ""C29"", ""scene"": ""渔民捕鱼，网里有鱼也有塑料碎片，塑料早已碎成肉眼难见的微粒。"", ""tags"": [""微塑料"", ""海洋污染"", ""食物链""], ""title"": ""看不见的碎片"", ""warning"": ""塑料不会消失，只会变成更小的微塑料残留。""}"
+ITEM_150,Climate/Environment,自然变率与人为影响,B,"{""concept"": ""自然变率与人为影响"", ""id"": ""C30"", ""scene"": ""地质学家说，历史上气候也变过，但现在变暖速度远超自然节律。"", ""tags"": [""自然变率"", ""人为排放"", ""变暖速度""], ""title"": ""自然也会变，但没这么快"", ""warning"": ""气候变化有自然因素，但当前变暖主要由人类活动驱动。""}"
+ITEM_183,Physics,牛顿第三定律,A,"text: 两个物体间作用力与反作用力大小相等、方向相反。
+misconception: 作用力与反作用力相互抵消
+correction: 二者作用在不同物体，无法抵消。"
+ITEM_184,Physics,抛体运动,A,"text: 抛体运动是仅受重力的曲线运动，水平方向匀速。
+misconception: 抛体上升时不受重力
+correction: 全程受重力，加速度恒为重力加速度。"
+ITEM_189,Chemistry,相变,A,"text: 相变是物质在固、液、气间转变，仅改状态不改本质。
+misconception: 相变是化学反应
+correction: 相变无新物质生成，属于物理变化。"
+ITEM_190,Chemistry,化学反应与物理变化,A,"text: 化学反应生成新物质，物理变化仅改变状态或形态。
+misconception: 有状态变化就是化学反应
+correction: 无新物质生成的状态变化是物理变化。"
+ITEM_195,Biology,随机变异与非随机选择,A,"text: 生物变异随机产生，自然选择则是非随机的筛选过程。
+misconception: 变异是为适应环境产生
+correction: 变异随机，选择非随机，决定进化方向。"
+ITEM_196,Biology,遗传信息与性状,A,"text: 遗传信息储存在DNA中，决定生物性状的表达。
+misconception: 性状仅由遗传信息决定
+correction: 性状是遗传信息与环境共同作用的结果。"
+ITEM_201,Geoscience,岩石循环,A,"text: 岩石循环是岩浆岩、沉积岩、变质岩间的相互转化过程。
+misconception: 岩石形成后不会改变类型
+correction: 岩石在地质作用下可转化为其他类型岩石。"
+ITEM_202,Geoscience,地震成因,A,"text: 地震是板块运动使地壳应力累积，突然释放引发震动。
+misconception: 地震是由地下生物活动引起
+correction: 地震源于地壳板块的运动和应力释放。"
+ITEM_207,Climate/Environment,全球变暖与气候变化,A,"text: 全球变暖是气候变暖趋势，气候变化含更广泛气候异动。
+misconception: 全球变暖等于气候变化
+correction: 全球变暖是气候变化的一个重要表现。"
+ITEM_208,Climate/Environment,二氧化碳的气候作用,A,"text: 二氧化碳是温室气体，过量会增强温室效应导致升温。
+misconception: 二氧化碳对气候无影响
+correction: 过量CO₂会加剧温室效应，推高全球气温。"
+ITEM_211,Physics,惯性,B,"{""concept"": ""惯性"", ""id"": ""C01"", ""scene"": ""公交急刹，小林身体前倾，才发现身体会保持原来的运动。"", ""tags"": [""惯性"", ""运动状态"", ""净力""], ""title"": ""急刹那刻"", ""warning"": ""别把惯性误解成一种力。""}"
+ITEM_214,Physics,抛体运动,B,"{""concept"": ""抛体运动"", ""id"": ""C04"", ""scene"": ""小刚扔皮球，皮球虽受重力，水平方向仍保持匀速运动。"", ""tags"": [""抛体"", ""重力"", ""匀速""], ""title"": ""抛出的皮球"", ""warning"": ""误以为抛体水平方向会减速。""}"
+ITEM_217,Chemistry,质量守恒,B,"{""concept"": ""质量守恒"", ""id"": ""C07"", ""scene"": ""小美烧纸片，灰烬加气体质量总和与原纸片相等。"", ""tags"": [""质量守恒"", ""燃烧"", ""总和""], ""title"": ""燃烧的纸片"", ""warning"": ""误以为燃烧后质量会减少。""}"
+ITEM_220,Chemistry,化学反应与物理变化,B,"{""concept"": ""化学反应与物理变化"", ""id"": ""C10"", ""scene"": ""小浩折纸是物理变，烧纸生成新物质是化学变化。"", ""tags"": [""化学反应"", ""物理变化"", ""新物质""], ""title"": ""折纸与烧纸"", ""warning"": ""分不清形变和新物质生成。""}"
+ITEM_223,Biology,自然选择,B,"{""concept"": ""自然选择"", ""id"": ""C13"", ""scene"": ""北方麻雀抗寒，是自然选择保留了耐寒个体。"", ""tags"": [""自然选择"", ""适应"", ""保留""], ""title"": ""抗寒的麻雀"", ""warning"": ""误解自然选择是主动选择。""}"
+ITEM_226,Biology,遗传信息与性状,B,"{""concept"": ""遗传信息与性状"", ""id"": ""C16"", ""scene"": ""小明单眼皮，是基因里的遗传信息决定的性状。"", ""tags"": [""遗传信息"", ""性状"", ""基因""], ""title"": ""单眼皮的小明"", ""warning"": ""认为性状仅由环境决定。""}"
+ITEM_229,Geoscience,板块构造,B,"{""concept"": ""板块构造"", ""id"": ""C19"", ""scene"": ""地质学家观测，非洲板块和亚欧板块在缓慢移动。"", ""tags"": [""板块构造"", ""大陆"", ""移动""], ""title"": ""移动的大陆"", ""warning"": ""误以为大陆是固定不动的。""}"
+ITEM_232,Geoscience,地震成因,B,"{""concept"": ""地震成因"", ""id"": ""C22"", ""scene"": ""四川民居摇晃，是板块挤压释放能量引发地震。"", ""tags"": [""地震"", ""板块挤压"", ""能量""], ""title"": ""摇晃的房屋"", ""warning"": ""误解地震是地下有怪兽。""}"
+ITEM_235,Climate/Environment,温室效应,B,"{""concept"": ""温室效应"", ""id"": ""C25"", ""scene"": ""大棚温室保暖，类似大气的温室效应留住热量。"", ""tags"": [""温室效应"", ""热量"", ""大气""], ""title"": ""温室的温度"", ""warning"": ""认为温室效应全是坏处。""}"
+ITEM_238,Climate/Environment,二氧化碳的气候作用,B,"{""concept"": ""二氧化碳的气候作用"", ""id"": ""C28"", ""scene"": ""小方得知，适量CO₂保温，过量则加剧变暖。"", ""tags"": [""二氧化碳"", ""保温"", ""变暖""], ""title"": ""二氧化碳的功过"", ""warning"": ""认为CO₂只有负面影响。""}"
+ITEM_242,Physics,净力与加速度,C,answer: A
+ITEM_243,Physics,牛顿第三定律,C,answer: A
+ITEM_248,Chemistry,物质微粒观,C,answer: A
+ITEM_249,Chemistry,相变,C,answer: A
+ITEM_254,Biology,进化没有预设目标,C,answer: A
+ITEM_255,Biology,随机变异与非随机选择,C,answer: A
+ITEM_260,Geoscience,地质时间,C,answer: A
+ITEM_261,Geoscience,岩石循环,C,answer: A
+ITEM_266,Climate/Environment,天气与气候,C,answer: A
+ITEM_267,Climate/Environment,全球变暖与气候变化,C,answer: A
+ITEM_275,Physics,圆周运动,A,"text: 物体沿圆周运动时，需要指向圆心的向心力。
+misconception: 圆周运动存在向外的离心力
+correction: 感受到的向外拖拽是惯性表现，不是真实离心力。"
+ITEM_281,Chemistry,化学键,A,"text: 原子通过化学键连接成分子，断键吸热、成键放热。
+misconception: 分子断裂就会放出热量
+correction: 断开化学键需要吸收能量，成键时才放出能量。"
+ITEM_287,Biology,能量流动与物质循环,A,"text: 生态系统中能量单向流动，物质可循环再利用。
+misconception: 能量和物质都能循环使用
+correction: 能量在食物链中逐渐耗散，不可重复利用。"
+ITEM_293,Geoscience,火山与板块边界,A,"text: 火山多分布在板块汇聚与离散边界，与岩浆活动有关。
+misconception: 火山可以随时在任何地方发生
+correction: 火山主要沿板块边界分布，非随机出现在各地。"
+ITEM_299,Climate/Environment,海洋垃圾与塑料污染,A,"text: 塑料分解极慢，在海洋中积累形成塑料污染。
+misconception: 塑料在海里很快消失
+correction: 塑料可存续数百年，仅分解为更小微粒。"
+ITEM_302,Physics,净力与加速度,B,"{""concept"": ""净力与加速度"", ""id"": ""C02"", ""scene"": ""小艾推购物车，越推越快。朋友问：不是力大速度就大吗？"", ""tags"": [""净力"", ""加速度"", ""速度变化""], ""title"": ""推车谜题"", ""warning"": ""净力决定加速度，不是直接定速度。""}"
+ITEM_303,Physics,牛顿第三定律,B,"{""concept"": ""牛顿第三定律"", ""id"": ""C03"", ""scene"": ""阿杰和同学互推手掌，两人同时后退，力是一起出现的。"", ""tags"": [""作用力"", ""反作用力"", ""同时""], ""title"": ""对掌游戏"", ""warning"": ""作用与反作用同时产生，不分先后。""}"
+ITEM_308,Chemistry,物质微粒观,B,"{""concept"": ""物质微粒观"", ""id"": ""C08"", ""scene"": ""小咛盯着杯里静止的水，想象里面无数分子正在疯狂运动。"", ""tags"": [""微粒"", ""分子运动"", ""空隙""], ""title"": ""水的秘密"", ""warning"": ""即使水静止，水分子也永远在动。""}"
+ITEM_309,Chemistry,相变,B,"{""concept"": ""相变"", ""id"": ""C09"", ""scene"": ""阿哲测冰水混合物，温度停在零度不动，明明在加热啊。"", ""tags"": [""相变"", ""熔点"", ""潜热""], ""title"": ""冰水恒温"", ""warning"": ""冰化完前温度不变，热量用于熔化。""}"
+ITEM_314,Biology,进化没有预设目标,B,"{""concept"": ""进化没有预设目标"", ""id"": ""C14"", ""scene"": ""小其以为进化会造出完美生物，老师摇头：适应就够，不必最优。"", ""tags"": [""进化"", ""无方向"", ""适应性""], ""title"": ""完美的陷阱"", ""warning"": ""进化没有预设目标，不追求完美。""}"
+ITEM_315,Biology,随机变异与非随机选择,B,"{""concept"": ""随机变异与非随机选择"", ""id"": ""C15"", ""scene"": ""小宗问：环境冷了，动物会长出厚毛吗？老师说：变异先发生。"", ""tags"": [""随机变异"", ""自然选择"", ""非定向""], ""title"": ""先变后选"", ""warning"": ""变异随机发生，不因环境需要才出现。""}"
+ITEM_320,Geoscience,地质时间,B,"{""concept"": ""地质时间"", ""id"": ""C20"", ""scene"": ""老师形容：板块移动像指甲生长，几百年才几米，一生难察觉。"", ""tags"": [""地质时间"", ""缓慢"", ""板块运动""], ""title"": ""指甲速度"", ""warning"": ""地质变化极其缓慢，远超人类寿命尺度。""}"
+ITEM_321,Geoscience,岩石循环,B,"{""concept"": ""岩石循环"", ""id"": ""C21"", ""scene"": ""小磊捡到花岗岩，老师说它祖先可能是海底泥沙或火山熔岩。"", ""tags"": [""岩石循环"", ""三大类"", ""转化""], ""title"": ""石头变形记"", ""warning"": ""任何岩石都能转变为另一类岩石。""}"
+ITEM_326,Climate/Environment,天气与气候,B,"{""concept"": ""天气与气候"", ""id"": ""C26"", ""scene"": ""寒潮来袭，小豪说：全球变暖是假的吧？姐姐摇头：看长期。"", ""tags"": [""天气"", ""气候"", ""长期趋势""], ""title"": ""一日之寒"", ""warning"": ""一天冷不代表气候趋势，得看长期。""}"
+ITEM_327,Climate/Environment,全球变暖与气候变化,B,"{""concept"": ""全球变暖与气候变化"", ""id"": ""C27"", ""scene"": ""小信奇怪：都说变暖，怎么某个地方冬天更冷了？这是气候失衡。"", ""tags"": [""全球变暖"", ""极值天气"", ""不均""], ""title"": ""不均之暖"", ""warning"": ""全球均值上升，局部可能短期更冷。""}"
+ITEM_366,Physics,摩擦力与运动,A,"text: 摩擦力是阻碍物体相对运动或相对运动趋势的力。
+misconception: 摩擦力总是阻碍物体的运动。
+correction: 摩擦力也可以是动力，比如人走路时地面提供的静摩擦力。"
+ITEM_372,Chemistry,溶液浓度与稀释,A,"text: 浓度指单位体积溶液中溶质的量。加溶剂稀释会降低浓度，但不改变溶质总量。
+misconception: 稀释后，溶质的质量或分子变小了。
+correction: 稀释仅增加了溶剂的量，溶质的颗粒大小和总质量不变。"
+ITEM_378,Biology,光合作用与细胞呼吸,A,"text: 光合作用将光能转化为化学能储存于有机物，细胞呼吸分解有机物释放能量。
+misconception: 植物只进行光合作用，不进行呼吸作用。
+correction: 植物的生存同样需要能量，它们无时无刻不在进行细胞呼吸。"
+ITEM_384,Geoscience,地球内部结构,A,"text: 地球内部从外到内分为地壳、地幔和地核，温度和压力随深度逐渐增加。
+misconception: 地球内部全都是液态的岩浆。
+correction: 地幔绝大部分是固态岩石，只有外地核是液态，内地核也是固态。"
+ITEM_390,Climate/Environment,自然变率与人为影响,A,"text: 气候系统的自然波动与人类活动共同影响地球，但近期变暖主要由人类主导。
+misconception: 现代气候变化完全是地球的自然周期变动。
+correction: 工业革命以来的快速变暖速度远超自然变动周期，主要是人类排放所致。"
+ITEM_391,Physics,惯性,B,"{""concept"": ""惯性"", ""id"": ""C01"", ""scene"": ""公交急刹，小林身体前倾，才发现身体会保持原来的运动。"", ""tags"": [""惯性"", ""运动状态"", ""净力""], ""title"": ""急刹那刻"", ""warning"": ""别把惯性误解成一种力。""}"
+ITEM_394,Physics,抛体运动,B,"{""concept"": ""抛体运动"", ""id"": ""C04"", ""scene"": ""老师平抛和让粉笔自由掉落，两支竟同时落地，学生们惊讶极了。"", ""tags"": [""平抛"", ""重力"", ""独立运动""], ""title"": ""扔出的粉笔"", ""warning"": ""水平扔出的速度不影响物体落地的快慢。""}"
+ITEM_396,Physics,摩擦力与运动,B,"{""concept"": ""摩擦力与运动"", ""id"": ""C06"", ""scene"": ""运动员起跑用力蹬地，全靠鞋底向前的静摩擦力推着他如离弦之箭冲刺。"", ""tags"": [""摩擦力"", ""动力"", ""相对趋势""], ""title"": ""起跑的瞬间"", ""warning"": ""摩擦力不仅仅是阻力，也能成为前进的动力。""}"
+ITEM_397,Chemistry,质量守恒,B,"{""concept"": ""质量守恒"", ""id"": ""C07"", ""scene"": ""小华称量燃烧的火柴，发现若用罩子收集散逸的烟气，总重量根本没变。"", ""tags"": [""质量守恒"", ""封闭系统"", ""气体散逸""], ""title"": ""烧完的火柴"", ""warning"": ""燃烧变轻是因为气体跑了，物质的质量没消失。""}"
+ITEM_400,Chemistry,化学反应与物理变化,B,"{""concept"": ""化学反应与物理变化"", ""id"": ""C10"", ""scene"": ""妈妈熬糖色，白糖变成了焦黑的糊状物。原本的分子被破坏重组了。"", ""tags"": [""化学反应"", ""物理变化"", ""新物质""], ""title"": ""焦黑的白糖"", ""warning"": ""物理变化没有新物质，化学变化生成了新物质。""}"
+ITEM_402,Chemistry,溶液浓度与稀释,B,"{""concept"": ""溶液浓度与稀释"", ""id"": ""C12"", ""scene"": ""妹妹嫌糖水太甜加了半杯水。水变淡了，但杯底溶化的糖其实一点没少。"", ""tags"": [""溶液浓度"", ""稀释"", ""溶质守恒""], ""title"": ""变淡的糖水"", ""warning"": ""稀释只增加了溶剂，溶质的总量并没有改变。""}"
+ITEM_403,Biology,自然选择,B,"{""concept"": ""自然选择"", ""id"": ""C13"", ""scene"": ""树干被煤烟熏黑，原本少见的黑飞蛾躲过鸟类存活繁衍，占据了数量优势。"", ""tags"": [""自然选择"", ""适应环境"", ""生存繁衍""], ""title"": ""躲藏的飞蛾"", ""warning"": ""生物不会为了适应环境而主动发生变异。""}"
+ITEM_406,Biology,遗传信息与性状,B,"{""concept"": ""遗传信息与性状"", ""id"": ""C16"", ""scene"": ""老铁匠打铁练出粗壮的胳膊，但他刚出生的儿子，手臂依然和常人一样。"", ""tags"": [""基因表达"", ""后天性状"", ""不可遗传""], ""title"": ""铁匠的手臂"", ""warning"": ""后天环境导致身体特征的改变是无法遗传的。""}"
+ITEM_408,Biology,光合作用与细胞呼吸,B,"{""concept"": ""光合作用与细胞呼吸"", ""id"": ""C18"", ""scene"": ""黑暗的卧室里，绿萝正在悄悄吸收氧气释放二氧化碳，为生存消耗能量。"", ""tags"": [""光合作用"", ""细胞呼吸"", ""维持生命""], ""title"": ""夜间的盆栽"", ""warning"": ""植物无时无刻不在进行呼吸作用以维持生命。""}"
+ITEM_409,Geoscience,板块构造,B,"{""concept"": ""板块构造"", ""id"": ""C19"", ""scene"": ""地理课上，小雨剪下南美洲和非洲的地图，发现它们的边缘竟能完美拼合。"", ""tags"": [""板块运动"", ""岩石圈"", ""大陆漂移""], ""title"": ""拼图的大陆"", ""warning"": ""地球表面不是一块死寂不变的坚硬外壳。""}"
+ITEM_412,Geoscience,地震成因,B,"{""concept"": ""地震成因"", ""id"": ""C22"", ""scene"": ""小明用力弯折竹筷，筷子突然“啪”地断裂弹开。地下的岩层断裂也是如此。"", ""tags"": [""应力积累"", ""断层破裂"", ""释放能量""], ""title"": ""折断的竹筷"", ""warning"": ""地震绝大多数是地层断裂引发，非地下爆炸。""}"
+ITEM_414,Geoscience,地球内部结构,B,"{""concept"": ""地球内部结构"", ""id"": ""C24"", ""scene"": ""老师切开白煮蛋，蛋壳、蛋白和蛋黄，完美对应了地球的地壳、地幔和地核。"", ""tags"": [""地壳"", ""地幔"", ""地核""], ""title"": ""切开的煮蛋"", ""warning"": ""地幔绝大部分是固态岩石，并不是液态岩浆。""}"
+ITEM_415,Climate/Environment,温室效应,B,"{""concept"": ""温室效应"", ""id"": ""C25"", ""scene"": ""寒冬里，爷爷的玻璃温室却暖洋洋的。大气层就像这玻璃，留住了地表热量。"", ""tags"": [""温室气体"", ""吸收热量"", ""天然保温""], ""title"": ""冬日的暖房"", ""warning"": ""天然的温室效应是地球生命存活的必备保温毯。""}"
+ITEM_418,Climate/Environment,二氧化碳的气候作用,B,"{""concept"": ""二氧化碳的气候作用"", ""id"": ""C28"", ""scene"": ""仅仅一滴红墨水就染红了整杯水。大气中微增的二氧化碳，足以打破热量平衡。"", ""tags"": [""温室气体"", ""微量大效"", ""热量平衡""], ""title"": ""致命红墨水"", ""warning"": ""别因为二氧化碳占比低就忽视它极强的保温能力。""}"
+ITEM_420,Climate/Environment,自然变率与人为影响,B,"{""concept"": ""自然变率与人为影响"", ""id"": ""C30"", ""scene"": ""科学家看着近百年的气温图表直摇头，这陡峭上升的异常曲线绝非大自然的手笔。"", ""tags"": [""自然波动"", ""人类活动"", ""快速变暖""], ""title"": ""陡峭的曲线"", ""warning"": ""工业时代以来的快速升温主要是人类活动导致的。""}"
+ITEM_424,Physics,抛体运动,C,answer: C
+ITEM_425,Physics,圆周运动,C,answer: A
+ITEM_430,Chemistry,化学反应与物理变化,C,answer: B
+ITEM_431,Chemistry,化学键,C,answer: B
+ITEM_436,Biology,遗传信息与性状,C,answer: C
+ITEM_437,Biology,能量流动与物质循环,C,answer: C
+ITEM_442,Geoscience,地震成因,C,answer: C
+ITEM_443,Geoscience,火山与板块边界,C,answer: C
+ITEM_448,Climate/Environment,二氧化碳的气候作用,C,answer: C
+ITEM_449,Climate/Environment,海洋垃圾与塑料污染,C,answer: C
+ITEM_451,Physics,惯性,A,"text: 惯性是物体保持原有运动状态的性质。
+misconception: 运动必须一直受力
+correction: 没有净力时，物体也可保持匀速直线运动。"
+ITEM_453,Physics,牛顿第三定律,A,"text: 作用力与反作用力大小相等、方向相反，分别作用在两个不同物体上。
+misconception: 作用力与反作用力能互相抵消
+correction: 它们作用在不同物体上，不能抵消。"
+ITEM_457,Chemistry,质量守恒,A,"text: 化学反应前后，参与反应的各物质总质量保持不变。
+misconception: 反应后质量一定不变
+correction: 敞口体系中气体逸出可能导致质量减少，但原子总数不变。"
+ITEM_459,Chemistry,相变,A,"text: 相变是物质在固、液、气等状态之间的转变过程。
+misconception: 相变时温度一直升高
+correction: 相变过程中温度保持不变，吸收或释放的是潜热。"
+ITEM_463,Biology,自然选择,A,"text: 自然选择指适应环境的个体更易存活和繁殖，从而传递基因。
+misconception: 生物为了适应环境而主动改变
+correction: 自然选择是对已有变异的筛选，不是生物主动适应。"
+ITEM_465,Biology,随机变异与非随机选择,A,"text: 基因变异是随机的，但自然选择是有方向性的筛选过程。
+misconception: 变异是为了适应环境
+correction: 变异随机发生，环境通过选择保留有利变异。"
+ITEM_469,Geoscience,板块构造,A,"text: 地球岩石圈由多个板块组成，板块在软流层上缓慢移动。
+misconception: 大陆在海洋上漂移
+correction: 板块包括大陆和海洋地壳，整体在软流层上移动。"
+ITEM_471,Geoscience,岩石循环,A,"text: 岩浆岩、沉积岩和变质岩在地质作用下可相互转化。
+misconception: 岩石类型固定不变
+correction: 在高温高压或风化沉积等作用下，岩石可从一种变为另一种。"
+ITEM_475,Climate/Environment,温室效应,A,"text: 温室气体吸收地表辐射的热量，使地球维持适宜温度。
+misconception: 温室效应完全是坏事
+correction: 天然温室效应维持地球宜居温度，问题在于过度增强。"
+ITEM_477,Climate/Environment,全球变暖与气候变化,A,"text: 全球变暖指地球平均气温长期上升趋势，是气候变化的一部分。
+misconception: 全球变暖意味着冬天不冷了
+correction: 全球变暖增加极端天气频率，部分地区冬季可能更严寒。"
+ITEM_511,Physics,惯性,C,answer: A
+ITEM_516,Physics,摩擦力与运动,C,answer: B
+ITEM_517,Chemistry,质量守恒,C,answer: B
+ITEM_522,Chemistry,溶液浓度与稀释,C,answer: C
+ITEM_523,Biology,自然选择,C,answer: B
+ITEM_528,Biology,光合作用与细胞呼吸,C,answer: C
+ITEM_529,Geoscience,板块构造,C,answer: B
+ITEM_534,Geoscience,地球内部结构,C,answer: B
+ITEM_535,Climate/Environment,温室效应,C,answer: B
+ITEM_540,Climate/Environment,自然变率与人为影响,C,answer: C
+ITEM_601,Physics,惯性,C,answer: A
+ITEM_602,Physics,净力与加速度,C,answer: A
+ITEM_607,Chemistry,质量守恒,C,answer: A
+ITEM_608,Chemistry,物质微粒观,C,answer: A
+ITEM_613,Biology,自然选择,C,answer: A
+ITEM_614,Biology,进化没有预设目标,C,answer: A
+ITEM_619,Geoscience,板块构造,C,answer: A
+ITEM_620,Geoscience,地质时间,C,answer: A
+ITEM_625,Climate/Environment,温室效应,C,answer: A
+ITEM_626,Climate/Environment,天气与气候,C,answer: A
+ITEM_635,Physics,圆周运动,A,"text: 圆周运动需要指向圆心的向心加速度。
+misconception: 向心力把物体甩出去
+correction: 向心力指向圆心，改变速度方向而非大小。"
+ITEM_641,Chemistry,化学键,A,"text: 化学键是原子间因电子作用形成的稳定联系。
+misconception: 化学键像小棍子
+correction: 化学键不是实物棍子，而是电子相互作用。"
+ITEM_647,Biology,能量流动与物质循环,A,"text: 生态系统中能量单向流动，物质可循环利用。
+misconception: 能量也能循环
+correction: 能量会逐级散失，物质可在生态系统中循环。"
+ITEM_653,Geoscience,火山与板块边界,A,"text: 许多火山分布在板块边界，少数位于热点地区。
+misconception: 火山随机分布
+correction: 火山常与俯冲、张裂或热点活动有关。"
+ITEM_659,Climate/Environment,海洋垃圾与塑料污染,A,"text: 塑料污染会破坏海洋生态，并可形成微塑料。
+misconception: 塑料会很快消失
+correction: 许多塑料难降解，会长期残留并碎化。"
+ITEM_663,Physics,牛顿第三定律,B,"{""concept"": ""牛顿第三定律"", ""id"": ""C03"", ""scene"": ""操场边，阿杰推墙时手发麻，墙也在反推他的手。"", ""tags"": [""作用力"", ""反作用"", ""相互""], ""title"": ""两人推墙"", ""warning"": ""别以为强者施力更大。""}"
+ITEM_669,Chemistry,相变,B,"{""concept"": ""相变"", ""id"": ""C09"", ""scene"": ""厨房里，小美看冰块化成水，知道物质种类没变。"", ""tags"": [""相变"", ""状态"", ""水""], ""title"": ""冰块融化"", ""warning"": ""融化不是化学反应。""}"
+ITEM_675,Biology,随机变异与非随机选择,B,"{""concept"": ""随机变异与非随机选择"", ""id"": ""C15"", ""scene"": ""草地上，甲虫颜色随机不同，鸟更容易吃掉显眼的个体。"", ""tags"": [""变异"", ""选择"", ""随机""], ""title"": ""甲虫颜色"", ""warning"": ""变异不会按需要定制。""}"
+ITEM_681,Geoscience,岩石循环,B,"{""concept"": ""岩石循环"", ""id"": ""C21"", ""scene"": ""展馆里，小李看岩石样本，发现岩浆岩也能转成沉积岩。"", ""tags"": [""岩石"", ""循环"", ""转化""], ""title"": ""石头旅行"", ""warning"": ""岩石类型不会永远不变。""}"
+ITEM_687,Climate/Environment,全球变暖与气候变化,B,"{""concept"": ""全球变暖与气候变化"", ""id"": ""C27"", ""scene"": ""新闻课上，主持人讲热浪、暴雨和海平面上升同时增加。"", ""tags"": [""变暖"", ""气候"", ""极端""], ""title"": ""不只升温"", ""warning"": ""气候变化不只是变热。""}"
+ITEM_696,Physics,摩擦力与运动,C,answer: A
+ITEM_702,Chemistry,溶液浓度与稀释,C,answer: A
+ITEM_708,Biology,光合作用与细胞呼吸,C,answer: A
+ITEM_714,Geoscience,地球内部结构,C,answer: A
+ITEM_720,Climate/Environment,自然变率与人为影响,C,answer: A
+ITEM_721,Physics,惯性,A,"text: 惯性是物体保持原有运动状态的性质。
+misconception: 运动必须一直受力
+correction: 没有净力时，物体也可保持匀速直线运动。"
+ITEM_722,Physics,净力与加速度,A,"text: 净力是改变物体运动状态的原因，产生加速度。
+misconception: 速度大则受力大
+correction: 净力决定加速度而非速度，匀速运动时净力为零。"
+ITEM_727,Chemistry,质量守恒,A,"text: 在封闭系统中，化学反应前后物质的总质量保持不变。
+misconception: 质量守恒意味着原子不变化
+correction: 原子种类和数目不变，但分子会重新组合。"
+ITEM_728,Chemistry,物质微粒观,A,"text: 物质由微粒构成，微粒间有间隙，且在不断运动。
+misconception: 微粒间紧密无间隙
+correction: 微粒间存在间隙，热胀冷缩是间隙改变的宏观表现。"
+ITEM_733,Biology,自然选择,A,"text: 适应环境的变异个体更易存活并繁殖，导致种群基因频率改变。
+misconception: 个体为了生存而主动变异
+correction: 变异是随机的，自然选择定向淘汰不适者。"
+ITEM_734,Biology,进化没有预设目标,A,"text: 生物进化是由环境选择随机变异驱动的，无既定终点。
+misconception: 进化是从低级向高级的攀升
+correction: 进化无固定方向，适应当前环境即可，不总是变复杂。"
+ITEM_739,Geoscience,板块构造,A,"text: 地球岩石圈由板块拼合而成，板块在软流层上相对运动。
+misconception: 大陆漂移是因为大陆在水上漂移
+correction: 板块在软流层上移动，而非漂浮在水上。"
+ITEM_740,Geoscience,地质时间,A,"text: 地质时间尺度以百万年计，远超人类历史的时间跨度。
+misconception: 地球变化总是剧烈且迅速
+correction: 缓慢的地质过程日积月累，也能造成巨大地貌改变。"
+ITEM_745,Climate/Environment,温室效应,A,"text: 温室效应是大气中温室气体吸收地表辐射，保持地球温暖的现象。
+misconception: 温室效应完全是有害的
+correction: 自然温室效应维持宜居温度，加剧的温室效应才导致变暖。"
+ITEM_746,Climate/Environment,天气与气候,A,"text: 天气是短时大气状况，气候是长期的平均天气模式。
+misconception: 天气冷说明气候变化不大
+correction: 局部短期冷事件不否定全球长期气候变暖趋势。"
+ITEM_752,Physics,净力与加速度,B,"{""concept"": ""净力与加速度"", ""id"": ""C02"", ""scene"": ""小明猛踩油门，车速骤增，这是净力让物体产生了加速度。"", ""tags"": [""净力"", ""加速度"", ""变速""], ""title"": ""踩油门的真相"", ""warning"": ""速度大不代表受力大，净力决定加速度。""}"
+ITEM_755,Physics,圆周运动,B,"{""concept"": ""圆周运动"", ""id"": ""C05"", ""scene"": ""洗衣机甩干时，衣服在桶内转圈，向心力不断改变速度方向。"", ""tags"": [""圆周运动"", ""向心力"", ""变速""], ""title"": ""甩干桶的秘密"", ""warning"": ""匀速圆周运动并非真正匀速，方向一直在变。""}"
+ITEM_758,Chemistry,物质微粒观,B,"{""concept"": ""物质微粒观"", ""id"": ""C08"", ""scene"": ""热水泡瘪乒乓球，球内气体微粒间距变大，球复原了。"", ""tags"": [""微粒观"", ""热胀冷缩"", ""微粒间距""], ""title"": ""乒乓球瘪了"", ""warning"": ""微粒间有空隙，并非紧密无间挤在一起。""}"
+ITEM_761,Chemistry,化学键,B,"{""concept"": ""化学键"", ""id"": ""C11"", ""scene"": ""小赵以为断键会释放能量，其实打断化学键就像拆墙，需吸收能量。"", ""tags"": [""化学键"", ""断键吸能"", ""作用力""], ""title"": ""拆墙的耗能"", ""warning"": ""断开化学键需要吸收能量，而非释放能量。""}"
+ITEM_764,Biology,进化没有预设目标,B,"{""concept"": ""进化没有预设目标"", ""id"": ""C14"", ""scene"": ""小明以为进化是从低级到高级的攀岩，其实只是适应当下的盲盒。"", ""tags"": [""进化"", ""无目标"", ""适应环境""], ""title"": ""没有终点线"", ""warning"": ""进化没有方向和预设目标，不是越进化越高级。""}"
+ITEM_767,Biology,能量流动与物质循环,B,"{""concept"": ""能量流动与物质循环"", ""id"": ""C17"", ""scene"": ""阳光能量流过草地变热散失，碳元素却在动植物间反复循环。"", ""tags"": [""能量流动"", ""物质循环"", ""生态""], ""title"": ""森林的流转"", ""warning"": ""能量单向流动会递减，物质却能循环反复利用。""}"
+ITEM_770,Geoscience,地质时间,B,"{""concept"": ""地质时间"", ""id"": ""C20"", ""scene"": ""喜马拉雅山拔地而起用了百万年，地质时间尺度远超人类想象。"", ""tags"": [""地质时间"", ""漫长"", ""沧海桑田""], ""title"": ""大地的时钟"", ""warning"": ""地貌变迁极度缓慢，别用人类寿命衡量地质变化。""}"
+ITEM_773,Geoscience,火山与板块边界,B,"{""concept"": ""火山与板块边界"", ""id"": ""C23"", ""scene"": ""夏威夷火山远离板块边界，是地幔热点烧穿地壳的产物。"", ""tags"": [""火山"", ""板块边界"", ""热点""], ""title"": ""孤立的火山"", ""warning"": ""火山不只长在板块边界，地幔热点也能形成火山。""}"
+ITEM_776,Climate/Environment,天气与气候,B,"{""concept"": ""天气与气候"", ""id"": ""C26"", ""scene"": ""暴雪纷飞，小华笑全球变暖是谎言，其实天气不等于气候。"", ""tags"": [""天气"", ""气候"", ""长期趋势""], ""title"": ""寒冬的暖警"", ""warning"": ""局部短期的寒冷天气，不能否定长期的气候变暖。""}"
+ITEM_779,Climate/Environment,海洋垃圾与塑料污染,B,"{""concept"": ""海洋垃圾与塑料污染"", ""id"": ""C29"", ""scene"": ""塑料瓶在海里变成微塑料，被鱼吞下，它从未真正消失。"", ""tags"": [""微塑料"", ""海洋污染"", ""降解""], ""title"": ""永远的碎片"", ""warning"": ""塑料在海里只是碎裂，不会自然分解消失。""}"
+ITEM_785,Physics,圆周运动,C,answer: B
+ITEM_791,Chemistry,化学键,C,answer: A
+ITEM_797,Biology,能量流动与物质循环,C,answer: B
+ITEM_803,Geoscience,火山与板块边界,C,answer: B
+ITEM_809,Climate/Environment,海洋垃圾与塑料污染,C,answer: B

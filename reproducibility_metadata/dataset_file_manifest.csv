@@ -1,0 +1,23 @@
+﻿file,role,expected_rows_or_units,notes
+main_study_data/generated_items_810.csv,generated corpus,810 items,Chinese generated items used by the main study
+main_study_data/llm_judge_scores_6929.csv,web judge scores,6929 parsed valid score rows; 6839 deduplicated valid judge-item pairs,Parsed web-deployed LLM judge ratings; 90 duplicate rows are collapsed before aggregation
+main_study_data/professional_reference_scores_1728_expanded.csv,primary professional reference,1728 item-level evaluations,Expanded anonymized professional-reference score rows used by the current paper
+reproducibility_metadata/human_validation_metadata.csv,professional survey metadata,15 rows,"Credamo/Jianshu collection, RMB 15 compensation, consent/anonymization, and independent blinded scoring metadata"
+main_study_data/human_ai_item_alignment_180_expanded_reference.csv,primary alignment table,180 items,Item-level web LLM and expanded professional means used by the current paper
+main_study_data/dimension_gap_summary.csv,figure/statistic input,6 dimensions,AI-professional dimension gaps using the expanded primary professional reference
+main_study_data/dimension_gap_summary_expanded_reference.csv,figure/statistic input,6 dimensions,Copy of expanded-reference dimension gaps for clarity
+main_study_data/task_domain_gap_matrix.csv,figure/statistic input,15 domain-task cells,Exploratory risk-gap profile
+api_replication_180_item/api_judge_scores_long.csv,official API replication,1620 parsed score rows,9 API judges x 180 validation items
+api_replication_180_item/api_expert_alignment_summary_expanded_reference.csv,official API replication summary,4 rows,API and web alignment against the expanded primary professional reference
+api_replication_180_item/api_provider_profile_summary_9models.csv,official API provider summary,9 providers,Provider-level scale and alignment statistics
+api_replication_180_item/judge_inputs_anonymized_180.csv,official API replication inputs,180 items,Anonymized inputs used for API judging
+api_replication_180_item/prepared_expert_items_180.csv,official API replication inputs plus references,180 items,Expert/web references and anonymized text
+diagnostics/controlled_ab_pairs_for_llm_judge.json,controlled A/B materials,8 pairs,Researcher-constructed local contrast diagnostic
+diagnostics/official_ab_judge_run_20260521_155532/official_ab_judge_scores_long_with_metadata.csv,official API A/B diagnostic,144 version-level score rows,9 API judges x 8 A/B pairs x 2 versions; pair-level summaries contain 72 judge-case comparisons
+robustness_checks/review_human_reliability_by_dimension.csv,professional reliability,6 dimensions,Krippendorff interval-alpha and pairwise Spearman summaries
+robustness_checks/professional_split_half_reliability.csv,professional reliability,12 rows,Random within-domain split-half item-mean reliability with Spearman-Brown correction
+robustness_checks/rater_count_and_agreement_sensitivity.csv,sensitivity analysis,4 subsets,Rater-count and agreement subset alignment checks
+robustness_checks/science_relevant_quality_sensitivity.csv,sensitivity analysis,1 row,FA+CC+MQ-only quality alignment
+robustness_checks/expanded_professional_reference_from_latest_data/,expanded reference processing,12 files,Processed latest professional-reference validation data, all-50 sensitivity, reliability summaries, repeat checks, and expanded-reference API diagnostics
+reproducibility_metadata/prompt_templates/,prompts and concept list,8 files,Generation and judging prompt templates
+reproducibility_metadata/rubric_anchors_and_codebook.md,rubric/codebook,1 file,Dimension definitions and anchors

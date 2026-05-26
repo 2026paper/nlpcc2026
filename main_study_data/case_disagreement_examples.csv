@@ -1,0 +1,30 @@
+case_id,case_type,domain,concept,task,generator,human_quality,ai_overall,human_risk,ai_risk,risk_gap,key_issue,mechanism,short_excerpt,item_id,original_item_uid,generated_content,fa_gap,cc_gap,lc_gap,tf_gap,mq_gap
+C1,risk_underestimated,Physics,抛体运动,C,Alibaba Qwen,2.166666666666667,4.111111111111111,4.5,1.2222222222222223,-3.2777777777777777,risk_underestimated,risk_underestimated,concept: 抛体运动 question: 篮球投出后，水平方向受力吗？ options: A. 受向前的推力; B. 受空气阻力; C. 不受力; D. 受重力 answer: C explain: 水平方向无推力，仅靠惯性匀速运动。,ITEM_064,千问_C_C04,"concept: 抛体运动
+question: 篮球投出后，水平方向受力吗？
+options: A. 受向前的推力; B. 受空气阻力; C. 不受力; D. 受重力
+answer: C
+explain: 水平方向无推力，仅靠惯性匀速运动。",2.3888888888888893,1.6111111111111107,2.166666666666667,3.0,1.8888888888888888
+C2,language_overestimated,Biology,进化没有预设目标,B,DeepSeek,3.0,5.0,3.0,1.0,-2.0,language_overestimated,language_overestimated,concept: 进化没有预设目标 title: 完美的陷阱 scene: 小其以为进化会造出完美生物，老师摇头：适应就够，不必最优。 tags: 进化; 无方向; 适应性 warning: 进化没有预设目标，不追求完美。,ITEM_314,DEEPSEEK_B_C14,"concept: 进化没有预设目标
+title: 完美的陷阱
+scene: 小其以为进化会造出完美生物，老师摇头：适应就够，不必最优。
+tags: 进化; 无方向; 适应性
+warning: 进化没有预设目标，不追求完美。",2.0,1.2083333333333337,2.333333333333333,1.3333333333333337,2.625
+C3,task_fit_overestimated,Geoscience,地质时间,B,DeepSeek,3.4444444444444446,4.75,2.6666666666666665,1.0,-1.6666666666666663,task_fit_overestimated,task_fit_overestimated,concept: 地质时间 title: 指甲速度 scene: 老师形容：板块移动像指甲生长，几百年才几米，一生难察觉。 tags: 地质时间; 缓慢; 板块运动 warning: 地质变化极其缓慢，远超人类寿命尺度。,ITEM_320,DEEPSEEK_B_C20,"concept: 地质时间
+title: 指甲速度
+scene: 老师形容：板块移动像指甲生长，几百年才几米，一生难察觉。
+tags: 地质时间; 缓慢; 板块运动
+warning: 地质变化极其缓慢，远超人类寿命尺度。",1.6666666666666663,0.625,0.875,2.333333333333333,1.0416666666666663
+C4,factuality_overestimated,Biology,光合作用与细胞呼吸,B,Google Gemini,3.333333333333333,4.875,2.0,1.0,-1.0,factuality_overestimated,factuality_overestimated,concept: 光合作用与细胞呼吸 title: 夜间的盆栽 scene: 黑暗的卧室里，绿萝正在悄悄吸收氧气释放二氧化碳，为生存消耗能量。 tags: 光合作用; 细胞呼吸; 维持生命 warning: 植物无时无刻不在进行呼吸作用以维持生命。,ITEM_408,Gemini_B_C18,"concept: 光合作用与细胞呼吸
+title: 夜间的盆栽
+scene: 黑暗的卧室里，绿萝正在悄悄吸收氧气释放二氧化碳，为生存消耗能量。
+tags: 光合作用; 细胞呼吸; 维持生命
+warning: 植物无时无刻不在进行呼吸作用以维持生命。",1.6666666666666663,1.5,1.6666666666666663,1.3333333333333337,1.9583333333333333
+C5,misconception_overestimated,Biology,进化没有预设目标,A,Zhipu GLM,3.388888888888889,4.875,2.333333333333333,1.0,-1.3333333333333337,misconception_overestimated,misconception_overestimated,concept: 进化没有预设目标 text: 生物进化是由环境选择随机变异驱动的，无既定终点。 misconception: 进化是从低级向高级的攀升 correction: 进化无固定方向，适应当前环境即可，不总是变复杂。,ITEM_734,GLM_A_C14,"concept: 进化没有预设目标
+text: 生物进化是由环境选择随机变异驱动的，无既定终点。
+misconception: 进化是从低级向高级的攀升
+correction: 进化无固定方向，适应当前环境即可，不总是变复杂。",1.3333333333333337,0.7083333333333335,1.6666666666666663,1.3333333333333337,2.2916666666666665
+C6,overall_disagreement,Physics,净力与加速度,B,DeepSeek,3.166666666666667,4.75,2.0,1.0,-1.0,overall_disagreement,overall_disagreement,concept: 净力与加速度 title: 推车谜题 scene: 小艾推购物车，越推越快。朋友问：不是力大速度就大吗？ tags: 净力; 加速度; 速度变化 warning: 净力决定加速度，不是直接定速度。,ITEM_302,DEEPSEEK_B_C02,"concept: 净力与加速度
+title: 推车谜题
+scene: 小艾推购物车，越推越快。朋友问：不是力大速度就大吗？
+tags: 净力; 加速度; 速度变化
+warning: 净力决定加速度，不是直接定速度。",1.5,1.5,1.875,2.0,2.0

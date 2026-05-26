@@ -1,0 +1,22 @@
+file,column,meaning
+generated_items_810.csv,item_id,Unique generated item id; maps to item_uid/original_item_id in scoring files.
+generated_items_810.csv,generator/model,AI generator that produced the science communication item.
+generated_items_810.csv,output/text,Generated public-science content extracted from content_json.
+llm_judge_scores_6929.csv,judge,LLM judge identity.
+llm_judge_scores_6929.csv,"fa, cc, lc, tf, mq, risk","Six ratings: factual accuracy, concept completeness, language clarity, task fit, misconception handling, misleading risk. Higher risk means more dangerous/misleading."
+professional_reference_scores_1728_expanded.csv,rater_id,Anonymized professional validator id.
+professional_reference_scores_1728_expanded.csv,quality5,"Paper primary professional quality metric: mean of fa, cc, lc, tf, and mq; risk is analyzed separately."
+human_ai_item_alignment_180_expanded_reference.csv,professional_quality5_primary / mean_llm_quality5_primary,"Paper primary item-level quality: mean of fa, cc, lc, tf, and mq; risk is analyzed separately."
+human_ai_item_alignment_180_expanded_reference.csv,professional_quality3_science / mean_llm_quality3_science,Science-relevant sensitivity quality metric using fa, cc, and mq only.
+human_ai_item_alignment_180_expanded_reference.csv,human_risk / mean_llm_risk,Item-level mean professional-reference and LLM misleading-risk scores; higher means higher risk.
+generator_rank_alignment.csv,automated_rank / human_rank,Generator quality ranks from LLM judges and human raters; rank 1 is best/highest quality.
+dimension_gap_summary.csv,gap,mean_ai - mean_human for the dimension.
+task_gap_summary.csv,quality_gap / risk_gap,mean AI-human gap by task. Positive quality_gap means LLM judges rated quality higher than humans; negative risk_gap means LLM judges rated risk lower than humans.
+domain_gap_summary.csv,notable_pattern,Short interpretation note for domain-level mismatch patterns.
+task_domain_gap_matrix.csv,"quality_gap, risk_gap, mq_gap, lc_gap, tf_gap",Task/domain mean AI-human gaps for heatmaps.
+robustness_checks/expanded_professional_reference_from_latest_data/expanded_professional_rater_metadata_anonymized.csv,included_primary,Whether the anonymized validator is included in the primary professional reference.
+robustness_checks/expanded_professional_reference_from_latest_data/expanded_professional_repeat_consistency_summary.csv,mean_abs_diff,Repeated-check absolute-difference summary for the expanded professional reference.
+case_disagreement_examples.csv,risk_gap,ai_risk - human_risk for the representative disagreement case.
+qualitative_themes.csv,example_quote,First coded open-response excerpt associated with the theme.
+third_party_mechanism_validation.csv,selected,Whether the third-party expert selected the mechanism for the case.
+stats_summary.json,human_ai_*,Core reported human-AI alignment statistics; Spearman/Pearson values are not rounded in JSON.
