@@ -15,6 +15,7 @@ diagnostics/
 
 robustness_checks/
   Additional review-response and sensitivity analyses: expanded professional-reference processing from the latest validation data, professional reliability and repeated-check summaries, split-half item-mean reliability, all-50-validator sensitivity, rater-count sensitivity, leave-one-domain/generator checks, same-family judge-generator exclusion, risk-floor diagnostics, fixed-effect checks, individual-judge alignment, science-relevant quality sensitivity using FA+CC+MQ only, and API quality stratified/residualized diagnostics under the expanded professional reference.
+  The overall split-half reliability should not be interpreted as uniform reliability in every domain. Domain-level split-half estimates vary substantially and are included as diagnostics rather than as standalone domain-level claims.
 
 reproducibility_metadata/
   Prompt templates, rubric/codebook notes, model-family registry, known-unavailable metadata, data-availability statement, sanitized dataset manifest, and package hash manifest.

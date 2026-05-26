@@ -20,6 +20,8 @@ Start with `reproducibility_metadata/dataset_file_manifest.csv`. The current man
 | Robustness and sensitivity checks | `robustness_checks/` |
 | Professional split-half item-mean reliability | `robustness_checks/professional_split_half_reliability.csv` |
 
+The overall split-half reliability reported in the paper should not be read as uniform domain-level reliability. Domain-level split-half estimates vary substantially, including weak or negative estimates in smaller chemistry and climate/environment strata, and are provided as diagnostic evidence rather than as independent domain-level claims.
+
 Earlier preliminary professional-reference tables are not included in this GitHub-clean package, because they are not used by the current manuscript and can obscure the audit path. The expanded-reference processing files are retained under `robustness_checks/expanded_professional_reference_from_latest_data/`.
 
 ## Double-Blind Scope
