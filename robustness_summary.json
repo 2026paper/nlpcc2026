@@ -1,0 +1,66 @@
+{
+  "current_reference": "expanded_primary_professional_reference",
+  "n_items": 180,
+  "completed_professional_questionnaires": 50,
+  "primary_validators": 48,
+  "primary_professional_item_level_evaluations": 1728,
+  "professional_ratings_per_item_distribution": {
+    "8": 36,
+    "10": 144
+  },
+  "web_judge_expected_pairs": 7290,
+  "web_judge_parsed_valid_rows": 6929,
+  "web_judge_duplicate_rows_collapsed": 90,
+  "web_judge_deduplicated_valid_pairs": 6839,
+  "alignment_against_expanded_reference": {
+    "web_quality": {
+      "n": 180,
+      "pearson_r": 0.0205418528166005,
+      "spearman_r": -0.0312128183615808
+    },
+    "web_risk": {
+      "n": 180,
+      "pearson_r": 0.3027083830572976,
+      "spearman_r": 0.2318532474448988
+    },
+    "api_quality": {
+      "n": 180,
+      "pearson_r": -0.1638233147727413,
+      "spearman_r": -0.1587851623701065
+    },
+    "api_risk": {
+      "n": 180,
+      "pearson_r": -0.0312604284645986,
+      "spearman_r": -0.1244915508011987
+    }
+  },
+  "risk_scale_diagnostics": {
+    "web_risk_item_floor_rate_professional_reference": 0.9388888888888889,
+    "web_risk_raw_floor_rate_valid_ratings": 0.99,
+    "api_mean_risk_floor_eq_1_rate": 0.0,
+    "api_mean_risk_near_floor_le_1_5_rate": 0.16111111111111112,
+    "api_mean_risk_le_2_rate": 0.46111111111111114
+  },
+  "professional_reliability": {
+    "repeated_check_abs_diff_quality": 0.381,
+    "repeated_check_abs_diff_risk": 0.375,
+    "domain_rater_pairwise_spearman_quality": 0.314,
+    "domain_rater_pairwise_spearman_risk": 0.274,
+    "overall_split_half_spearman_brown_quality": 0.8913182677236241,
+    "overall_split_half_spearman_brown_risk": 0.7161603309860642,
+    "domain_level_split_half_file": "robustness_checks/professional_split_half_reliability.csv"
+  },
+  "current_primary_files": {
+    "professional_reference_scores": "main_study_data/professional_reference_scores_1728_expanded.csv",
+    "item_level_alignment": "main_study_data/human_ai_item_alignment_180_expanded_reference.csv",
+    "web_judge_scores": "main_study_data/llm_judge_scores_6929.csv",
+    "api_alignment_summary": "api_replication_180_item/api_expert_alignment_summary_expanded_reference.csv",
+    "expanded_reference_diagnostics": "robustness_checks/expanded_professional_reference_from_latest_data/"
+  },
+  "known_limitations": [
+    "Raw survey workbooks and platform answer identifiers are withheld to preserve participant anonymity.",
+    "Original web-interface session transcripts, hidden system prompts, and hidden decoding parameters are unavailable.",
+    "Official API replication is an auditable robustness check rather than an exact rerun of hidden web interfaces."
+  ],
+  "notes": "This file supersedes preliminary robustness summaries. It matches the current manuscript and GitHub-clean package."
+}

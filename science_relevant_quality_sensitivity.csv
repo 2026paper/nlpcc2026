@@ -1,0 +1,2 @@
+analysis,n_items,quality_spearman,quality_pearson,human_dimensions,llm_dimensions
+science_relevant_quality_only_fa_cc_mq,180,-0.01843277596585579,0.03542232394124139,fa_human;cc_human;mq_human,fa_ai;cc_ai;mq_ai
