@@ -1,0 +1,9 @@
+case_id,domain,concept,hidden_intervention,n_judges,quality_expected_direction_rate,risk_expected_direction_rate,both_expected_direction_rate,mean_quality_gap_expected_minus_other,mean_risk_gap_expected_minus_other
+A01,Physics,Projectile motion,boundary condition,9,0.5555555555555556,0.4444444444444444,0.3333333333333333,0.11111111111111097,0.5555555555555556
+A02,Physics,Net force and acceleration,causal distinction,9,1.0,1.0,1.0,2.9555555555555557,3.6666666666666665
+A03,Biology,Evolution has no predetermined goal,misconception repair depth,9,1.0,0.6666666666666666,0.6666666666666666,0.9777777777777776,0.6666666666666666
+A04,Biology,Photosynthesis and cellular respiration,mechanism and boundary,9,1.0,1.0,1.0,2.422222222222222,3.5555555555555554
+A05,Geoscience,Geological time,analogy boundary,9,1.0,1.0,1.0,2.488888888888889,3.7777777777777777
+A06,Climate/Environment,Weather and climate,scale distinction,9,1.0,1.0,1.0,3.2444444444444445,3.888888888888889
+A07,Chemistry,Chemical equilibrium,dynamic mechanism,9,1.0,1.0,1.0,2.7333333333333334,3.6666666666666665
+A08,Climate/Environment,Greenhouse effect,format compliance vs semantic accuracy,9,1.0,1.0,1.0,2.6888888888888887,3.888888888888889

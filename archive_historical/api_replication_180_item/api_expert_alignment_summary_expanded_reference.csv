@@ -1,0 +1,5 @@
+﻿source,judge_provider,target,n,pearson_r,pearson_p,spearman_r,spearman_p
+api_mean,all_successful_api_judges,professional_quality5_primary_expanded,180,-0.1638233147727413,0.0279864606122887,-0.1587851623701065,0.0332533537548953
+api_mean,all_successful_api_judges,professional_risk_expanded,180,-0.0312604284645986,0.6769837154212563,-0.1244915508011987,0.0958973568215459
+web_mean,original_web_panel_mean,professional_quality5_primary_expanded,180,0.0205418528166005,0.7843099950608888,-0.0312128183615808,0.6774481566605112
+web_mean,original_web_panel_mean,professional_risk_expanded,180,0.3027083830572976,3.623079340194861e-05,0.2318532474448988,0.0017376547787552

@@ -1,0 +1,14 @@
+{
+  "file_role": "legacy_corpus_and_auxiliary_web_summary_not_headline_analysis",
+  "generated_items": 810,
+  "web_judge_expected_pairs": 7290,
+  "web_judge_parsed_valid_rows": 6929,
+  "web_judge_duplicate_rows_collapsed": 90,
+  "web_judge_deduplicated_valid_pairs": 6839,
+  "current_main_stats_file": "api_main_full810_latest22_reference/stats_summary_latest22_only.json",
+  "current_main_api_long_matrix": "api_main_full810_latest22_reference/api_judge_scores_long_7290_redacted.csv",
+  "current_main_human_audit": "api_main_full810_latest22_reference/human_audit_latest22_scores_long.csv",
+  "current_main_input_integrity_summary": "api_main_full810_latest22_reference/input_integrity_summary.json",
+  "historical_material": "archive_historical/",
+  "notes": "This legacy main-study stats file is retained for corpus and auxiliary web-interface context. The current manuscript's headline statistics use the API810 plus latest22 human-audit files under api_main_full810_latest22_reference/. Task-C API-main scores are diagnostic-only because the API judge inputs were answer labels only."
+}

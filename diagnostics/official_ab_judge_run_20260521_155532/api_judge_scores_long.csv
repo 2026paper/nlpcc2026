@@ -1,0 +1,146 @@
+item_id,judge_provider,paper_model_label,judge_model_requested,actual_api_model,judge_model_returned,judge_model,fa,cc,lc,tf,mq,risk,parse_success,retry_count,error_message,http_status,usage_prompt_tokens,usage_completion_tokens,system_fingerprint_or_backend_id
+A01_A,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,4,3,4,3,3,2,True,0,,200,778,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A01_B,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,4,2,5,4,3,2,True,0,,200,756,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A02_A,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,5,4,5,5,5,1,True,0,,200,768,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A02_B,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,2,2,4,3,2,4,True,0,,200,752,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A03_A,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,3,2,4,3,3,2,True,0,,200,757,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A03_B,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,5,4,5,5,5,1,True,0,,200,783,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A04_A,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,1,1,3,1,1,5,True,0,,200,761,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A04_B,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,4,3,4,4,4,2,True,0,,200,775,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A05_A,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,5,3,5,4,5,1,True,0,,200,774,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A05_B,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,2,2,3,2,1,5,True,0,,200,755,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A06_A,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,5,4,5,5,5,1,True,0,,200,777,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A06_B,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,1,1,3,1,1,5,True,0,,200,766,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A07_A,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,5,3,5,5,5,1,True,0,,200,758,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A07_B,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,1,1,3,3,1,5,True,0,,200,746,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A08_A,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,2,1,3,2,1,5,True,0,,200,763,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A08_B,deepseek,DeepSeek-V4 Expert Mode,deepseek-v4,deepseek-v4-pro,deepseek-v4-pro,deepseek-v4,5,4,5,5,4,1,True,0,,200,772,94,fp_9954b31ca7_prod0820_fp8_kvcache_20260402
+A02_A,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,4,4,5,5,4,2,True,0,,200,1050,590,
+A01_B,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,4,3,5,4,5,2,True,0,,200,1031,580,
+A01_A,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,5,4,5,5,5,1,True,0,,200,1060,590,
+A03_A,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,4,3,5,5,4,2,True,0,,200,1034,364,
+A02_B,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,1,1,4,2,1,5,True,0,,200,1025,510,
+A03_B,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,5,4,5,5,5,1,True,0,,200,1070,337,
+A04_A,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,1,1,5,2,1,5,True,0,,200,1041,590,
+A04_B,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,5,4,5,5,5,1,True,0,,200,1067,378,
+A05_B,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,1,2,5,2,1,5,True,0,,200,1033,423,
+A06_A,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,5,4,5,5,5,1,True,0,,200,1048,282,
+A05_A,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,5,4,5,5,5,1,True,0,,200,1059,426,
+A06_B,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,1,1,5,1,1,5,True,0,,200,1038,263,
+A07_A,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,4,3,5,5,5,2,True,0,,200,1038,472,
+A07_B,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,1,2,4,2,1,5,True,0,,200,1020,590,
+A08_B,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,5,4,5,5,5,1,True,0,,200,1064,590,
+A08_A,openai,GPT-5.5 Thinking,gpt-5.5,gpt-5.5,gpt-5.5-2026-04-23,gpt-5.5,1,1,4,3,1,5,True,0,,200,1044,590,
+A02_A,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,5,5,5,5,5,1,True,0,,200,764,2751,fpv0_69dc6732
+A02_B,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,1,1,3,1,1,5,True,0,,200,745,1994,fpv0_8cab9aba
+A01_B,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,3,3,5,3,4,3,True,0,,200,751,5576,fpv0_69dc6732
+A01_A,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,5,3,5,4,4,1,True,1,,200,773,4709,fpv0_fdcd1966
+A03_B,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,5,4,5,5,5,1,True,0,,200,775,2501,fpv0_69dc6732
+A04_A,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,1,3,5,3,1,5,True,0,,200,757,1916,fpv0_5bc7fa40
+A03_A,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,4,3,5,3,4,2,True,0,,200,753,3748,fpv0_fdcd1966
+A05_A,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,5,4,5,5,5,1,True,0,,200,771,1496,fpv0_8cab9aba
+A04_B,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,5,4,5,5,5,1,True,0,,200,771,1860,fpv0_8cab9aba
+A06_A,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,5,5,5,5,5,1,True,0,,200,761,857,fpv0_8cab9aba
+A06_B,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,,kimi-k2.6-thinking,nan,nan,nan,nan,nan,nan,False,2,"HTTP 429: {""error"":{""message"":""The engine is currently overloaded, please try again later"",""type"":""engine_overloaded_error""}}",429,,,
+A05_B,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,2,3,5,3,1,5,True,0,,200,751,3735,fpv0_8cab9aba
+A07_A,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,5,4,5,5,5,1,True,0,,200,753,1897,fpv0_8cab9aba
+A07_B,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,2,2,4,3,1,5,True,0,,200,741,3886,fpv0_69dc6732
+A08_A,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,1,1,3,3,1,5,True,0,,200,759,2867,fpv0_8cab9aba
+A08_B,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,5,5,5,5,5,1,True,1,,200,768,1450,fpv0_8cab9aba
+A02_A,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,5,3,5,3,5,1,True,0,,200,894,128,
+A01_A,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,5,3,5,3,4,1,True,0,,200,898,128,
+A01_B,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,5,3,5,4,4,2,True,0,,200,877,128,
+A03_A,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,3,2,5,3,3,2,True,0,,200,877,128,
+A02_B,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,1,1,3,2,1,5,True,0,,200,870,128,
+A04_A,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,1,1,5,3,1,5,True,0,,200,878,128,
+A04_B,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,4,3,5,4,4,2,True,0,,200,893,128,
+A05_A,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,5,3,5,3,4,1,True,0,,200,897,128,
+A05_B,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,1,1,4,2,1,5,True,0,,200,878,128,
+A03_B,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,5,3,5,5,5,1,True,0,,200,903,128,
+A06_B,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,1,1,5,1,1,5,True,0,,200,884,128,
+A06_A,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,5,4,5,5,5,1,True,0,,200,896,128,
+A07_A,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,5,3,5,4,5,2,True,0,,200,879,128,
+A08_A,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,1,1,5,2,1,5,True,0,,200,883,128,
+A08_B,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,5,3,5,4,5,1,True,0,,200,893,128,
+A07_B,doubao,Doubao 2.0 Pro,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,doubao-seed-2-0-pro-260215,1,1,3,2,1,5,True,0,,200,865,128,
+A02_A,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,5,5,5,5,5,1,True,0,,200,828,981,
+A01_A,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,5,3,5,3,5,3,True,0,,200,838,1091,
+A01_B,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,4,3,5,3,5,3,True,0,,200,815,1902,
+A03_B,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,5,5,5,5,5,1,True,0,,200,842,809,
+A03_A,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,3,3,5,5,5,1,True,0,,200,816,1404,
+A02_B,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,1,1,4,2,1,5,True,0,,200,811,1601,
+A04_B,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,5,4,5,5,5,1,True,0,,200,837,1316,
+A04_A,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,2,2,5,3,1,5,True,0,,200,820,1557,
+A05_B,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,1,1,5,2,1,5,True,0,,200,814,1417,
+A06_A,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,5,5,5,5,5,1,True,0,,200,835,967,
+A06_B,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,1,1,4,1,1,5,True,0,,200,825,1298,
+A07_B,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,1,1,5,2,1,5,True,0,,200,805,1106,
+A07_A,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,5,4,5,5,5,1,True,0,,200,817,1373,
+A08_B,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,5,5,5,5,5,1,True,0,,200,831,930,
+A05_A,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,5,5,5,5,5,1,True,2,,200,834,874,
+A08_A,glm,GLM-5.1,glm-5.1,glm-5.1,glm-5.1,glm-5.1,1,1,4,2,1,5,True,0,,200,822,1175,
+A01_A,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,5,4,5,5,5,1,True,0,,200,827,367,
+A02_A,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,5,4,5,5,5,1,True,0,,200,818,367,
+A02_B,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,1,1,3,2,1,5,True,0,,200,802,367,
+A03_A,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,4,2,5,4,4,2,True,0,,200,807,367,
+A01_B,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,4,3,5,5,5,1,True,0,,200,805,367,
+A03_B,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,5,4,5,5,5,1,True,0,,200,833,367,
+A04_A,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,1,1,4,2,1,5,True,0,,200,811,367,
+A05_A,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,5,4,5,5,5,1,True,0,,200,825,367,
+A04_B,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,5,4,5,5,5,1,True,0,,200,825,367,
+A06_A,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,5,4,5,5,5,1,True,0,,200,820,367,
+A05_B,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,2,2,4,3,2,4,True,0,,200,806,367,
+A06_B,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,1,1,3,1,1,5,True,0,,200,812,367,
+A07_A,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,5,3,5,5,5,1,True,0,,200,807,367,
+A07_B,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,1,1,4,2,1,5,True,0,,200,796,367,
+A08_A,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,2,2,4,3,1,5,True,0,,200,814,367,
+A08_B,qwen,Qwen3.5 Thinking,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,qwen3.5-plus,5,4,5,5,5,1,True,0,,200,822,367,
+A01_A,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,4,2,4,2,2,3,True,0,,200,1222,123,
+A02_A,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,5,3,5,4,4,2,True,0,,200,1199,123,
+A01_B,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,3,2,4,3,3,3,True,0,,200,1178,128,
+A02_B,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,1,1,3,1,1,5,True,0,,200,1162,123,
+A03_A,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,3,2,4,3,3,3,True,0,,200,1175,123,
+A03_B,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,5,3,5,4,4,2,True,0,,200,1219,123,
+A04_A,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,1,1,3,2,1,5,True,0,,200,1194,123,
+A04_B,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,4,3,4,3,4,2,True,0,,200,1222,123,
+A05_A,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,4,3,5,3,4,2,True,0,,200,1218,123,
+A05_B,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,2,1,3,2,1,5,True,0,,200,1181,123,
+A06_A,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,5,3,4,4,4,2,True,0,,200,1207,123,
+A06_B,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,1,1,3,1,1,5,True,0,,200,1186,123,
+A07_A,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,4,3,5,4,4,2,True,0,,200,1185,123,
+A08_A,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,2,1,4,2,1,5,True,0,,200,1186,123,
+A07_B,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,1,1,3,2,1,5,True,0,,200,1161,123,
+A08_B,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,claude-sonnet-4-6,4,3,4,4,4,2,True,0,,200,1206,123,
+A01_B,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,5,3,5,4,4,2,True,0,,200,795,100,
+A02_A,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,5,3,5,5,5,1,True,0,,200,810,100,
+A01_A,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,4,2,4,3,3,2,True,0,,200,816,100,
+A03_A,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,5,3,5,5,5,1,True,0,,200,793,100,
+A02_B,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,1,1,3,1,1,5,True,0,,200,789,100,
+A03_B,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,5,4,5,5,5,1,True,0,,200,818,100,
+A04_A,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,1,1,4,1,1,5,True,0,,200,799,100,
+A04_B,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,5,3,4,5,4,2,True,0,,200,818,100,
+A05_A,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,5,3,5,5,5,1,True,0,,200,816,100,
+A05_B,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,1,1,3,1,1,5,True,0,,200,792,100,
+A06_A,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,5,4,5,5,5,1,True,0,,200,812,100,
+A06_B,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,1,1,3,1,1,5,True,0,,200,803,100,
+A07_B,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,1,1,3,1,1,5,True,0,,200,783,100,
+A07_A,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,5,3,5,5,5,1,True,0,,200,795,100,
+A08_A,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,1,1,3,3,1,5,True,0,,200,803,100,
+A08_B,mimo,Mimo v2.5 Pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,mimo-v2.5-pro,5,3,5,5,5,1,True,0,,200,809,100,
+A06_B,kimi,Kimi K2.6 Thinking,kimi-k2.6-thinking,kimi-k2.6,kimi-k2.6,kimi-k2.6-thinking,1,1,3,1,1,5,True,0,,200,754,1855,fpv0_8cab9aba
+A01_A,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,5,5,5,5,5,1,True,0,,200,864,120,gemini-3.1-pro-preview
+A02_A,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,5,5,5,5,5,1,True,0,,200,856,120,gemini-3.1-pro-preview
+A01_B,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,4,3,5,4,5,2,True,0,,200,841,120,gemini-3.1-pro-preview
+A02_B,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,1,1,5,1,1,5,True,0,,200,834,120,gemini-3.1-pro-preview
+A03_B,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,5,5,5,5,5,1,True,0,,200,868,120,gemini-3.1-pro-preview
+A03_A,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,4,3,5,4,5,1,True,0,,200,838,79,gemini-3.1-pro-preview
+A04_B,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,5,5,5,5,5,1,True,0,,200,862,120,gemini-3.1-pro-preview
+A04_A,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,1,1,5,3,1,5,True,1,,200,845,120,gemini-3.1-pro-preview
+A05_A,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,5,4,5,5,5,1,True,0,,200,864,120,gemini-3.1-pro-preview
+A06_A,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,5,5,5,5,5,1,True,0,,200,859,120,gemini-3.1-pro-preview
+A05_B,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,1,1,5,2,1,5,True,0,,200,840,120,gemini-3.1-pro-preview
+A06_B,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,1,1,4,1,1,5,True,0,,200,848,120,gemini-3.1-pro-preview
+A07_A,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,5,5,5,5,5,1,True,0,,200,841,120,gemini-3.1-pro-preview
+A08_A,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,1,1,5,3,1,5,True,0,,200,850,120,gemini-3.1-pro-preview
+A07_B,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,1,1,4,3,1,5,True,0,,200,828,120,gemini-3.1-pro-preview
+A08_B,gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,gemini-3.1-pro-preview,gemini-3.1-pro,5,5,5,5,5,1,True,0,,200,858,120,gemini-3.1-pro-preview

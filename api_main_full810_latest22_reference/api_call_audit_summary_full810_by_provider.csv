@@ -1,0 +1,10 @@
+judge_provider,expected_unique_items,final_selected_rows,final_unique_items,final_parse_success_rows,failed_or_blocked_rows_retained,final_retry_rows,final_retry_count_sum,resume_block_call_attempts,resume_block_parsed_success,resume_block_unique_items_attempted,resume_block_http_429,all_final_items_complete
+anthropic,810,810,810,810,0,20,23,685,628,628,53,True
+deepseek,810,810,810,810,0,2,2,630,628,628,0,True
+doubao,810,810,810,810,0,9,9,632,628,628,0,True
+gemini,810,810,810,810,0,33,45,1234,628,628,509,True
+glm,810,810,810,810,0,19,22,636,628,628,0,True
+kimi,810,810,810,810,0,24,27,642,628,628,3,True
+mimo,810,810,810,810,0,9,9,637,628,628,0,True
+openai,810,810,810,810,0,34,39,1140,628,628,477,True
+qwen,810,810,810,810,0,14,14,633,628,628,0,True

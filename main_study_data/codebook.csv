@@ -1,0 +1,18 @@
+file,column,meaning
+generated_items_810.csv,item_id,Unique generated item id; maps to source_item_uid in API scoring files.
+generated_items_810.csv,generator/model,AI generator that produced the science communication item.
+generated_items_810.csv,output/text,Generated public-science content extracted from content_json.
+generated_items_810.csv,content_json,Source payload; Task-C rows contain full quiz fields in the source corpus.
+llm_judge_scores_6929.csv,judge,Auxiliary web-interface LLM judge identity.
+llm_judge_scores_6929.csv,"fa, cc, lc, tf, mq, risk","Six ratings: factual accuracy, concept completeness, language clarity, task fit, misconception handling, misleading risk. Higher risk means more dangerous/misleading."
+api_main_full810_latest22_reference/api_judge_scores_long_7290_redacted.csv,"fa, cc, lc, tf, mq, risk",Current main long API score matrix; one row per successful API judge-item pair.
+api_main_full810_latest22_reference/judge_inputs_anonymized_810.csv,generated_text,Actual API-main judge input text; Task-C rows are answer-label-only in this file.
+api_main_full810_latest22_reference/input_integrity_report.csv,input_integrity_pass,Post hoc input-integrity audit comparing API judge inputs against source item payloads.
+api_main_full810_latest22_reference/human_audit_latest22_scores_long.csv,rater_id,Anonymized current human-audit rater id.
+api_main_full810_latest22_reference/human_audit_latest22_scores_long.csv,quality5,"Current primary human-audit quality metric: mean of fa, cc, lc, tf, and mq; risk is analyzed separately."
+api_main_full810_latest22_reference/api_web_alignment_items_latest22.csv,human_quality / api_quality / web_quality_5dim,Item-level current human-audit, API, and auxiliary web-interface quality means.
+api_main_full810_latest22_reference/api_web_alignment_items_latest22.csv,human_risk / api_risk / original_web_risk,Item-level current human-audit, API, and auxiliary web-interface misleading-risk means; higher means higher risk.
+api_main_full810_latest22_reference/alignment_sensitivity_excluding_task_c_latest22.csv,subset,Marks all-task versus Task A/B-only alignment because Task-C API rows are diagnostic-only.
+api_main_full810_latest22_reference/dimension_gap_summary_latest22.csv,mean_auto_minus_human,Auto-score minus current human-audit mean for each dimension.
+archive_historical/,scope,Earlier pilot survey exports and superseded API180 material retained for audit continuity only; not pooled into the revised main analysis.
+stats_summary.json,notes,Legacy main-study summary retained for corpus/web context; current headline API/human statistics are in api_main_full810_latest22_reference/stats_summary_latest22_only.json.

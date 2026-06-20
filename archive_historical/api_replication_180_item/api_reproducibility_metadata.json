@@ -1,0 +1,427 @@
+{
+  "experiment_name": "api_controlled_llm_as_judge_replication_9models",
+  "created_at": "2026-05-14T14:49:50+00:00",
+  "combined_dir": "api_outputs/api_judge_combined_9models_20260514",
+  "positioning_statement": "This experiment is not an exact rerun of the original web-interface models. It is a judge-side robustness check using official APIs, fixed prompts, fixed JSON schema, and recorded decoding/provider settings.",
+  "data_source_statement": "All judge scores included in the 9-model main analysis come from official provider APIs. Open WebUI/n1n exploration is not included as main evidence.",
+  "n_expert_validation_items": 180,
+  "n_api_judges": 9,
+  "n_success_scores": 1620,
+  "providers": [
+    {
+      "judge_provider": "anthropic",
+      "paper_model_label": "Claude Sonnet 4.6",
+      "judge_model_requested": "claude-sonnet-4-6",
+      "actual_api_model": "claude-sonnet-4-6",
+      "judge_model_returned": "claude-sonnet-4-6",
+      "n": 180
+    },
+    {
+      "judge_provider": "deepseek",
+      "paper_model_label": "DeepSeek-V4 Expert Mode",
+      "judge_model_requested": "deepseek-v4",
+      "actual_api_model": "deepseek-v4-pro",
+      "judge_model_returned": "deepseek-v4-pro",
+      "n": 180
+    },
+    {
+      "judge_provider": "doubao",
+      "paper_model_label": "Doubao 2.0 Pro",
+      "judge_model_requested": "doubao-seed-2-0-pro-260215",
+      "actual_api_model": "doubao-seed-2-0-pro-260215",
+      "judge_model_returned": "doubao-seed-2-0-pro-260215",
+      "n": 180
+    },
+    {
+      "judge_provider": "gemini",
+      "paper_model_label": "Gemini 3.1 Pro",
+      "judge_model_requested": "gemini-3.1-pro",
+      "actual_api_model": "gemini-3.1-pro-preview",
+      "judge_model_returned": "gemini-3.1-pro-preview",
+      "n": 180
+    },
+    {
+      "judge_provider": "glm",
+      "paper_model_label": "GLM-5.1",
+      "judge_model_requested": "glm-5.1",
+      "actual_api_model": "glm-5.1",
+      "judge_model_returned": "glm-5.1",
+      "n": 180
+    },
+    {
+      "judge_provider": "kimi",
+      "paper_model_label": "Kimi K2.6 Thinking",
+      "judge_model_requested": "kimi-k2.6-thinking",
+      "actual_api_model": "kimi-k2.6",
+      "judge_model_returned": "kimi-k2.6",
+      "n": 180
+    },
+    {
+      "judge_provider": "mimo",
+      "paper_model_label": "Mimo v2.5 Pro",
+      "judge_model_requested": "mimo-v2.5-pro",
+      "actual_api_model": "mimo-v2.5-pro",
+      "judge_model_returned": "mimo-v2.5-pro",
+      "n": 180
+    },
+    {
+      "judge_provider": "openai",
+      "paper_model_label": "GPT-5.5 Thinking",
+      "judge_model_requested": "gpt-5.5",
+      "actual_api_model": "gpt-5.5",
+      "judge_model_returned": "gpt-5.5-2026-04-23",
+      "n": 180
+    },
+    {
+      "judge_provider": "qwen",
+      "paper_model_label": "Qwen3.5 Thinking",
+      "judge_model_requested": "qwen3.5-plus",
+      "actual_api_model": "qwen3.5-plus",
+      "judge_model_returned": "qwen3.5-plus",
+      "n": 180
+    }
+  ],
+  "alignment_summary": [
+    {
+      "source": "api_mean",
+      "judge_provider": "all_successful_api_judges",
+      "target": "expert_quality",
+      "n": 180,
+      "pearson_r": -0.22960907527768537,
+      "pearson_p": 0.0019312892862962663,
+      "spearman_r": -0.21281247813722862,
+      "spearman_p": 0.004127915557618741
+    },
+    {
+      "source": "api_mean",
+      "judge_provider": "all_successful_api_judges",
+      "target": "expert_risk",
+      "n": 180,
+      "pearson_r": -0.008632245247951567,
+      "pearson_p": 0.9084379720734042,
+      "spearman_r": -0.03764930597902315,
+      "spearman_p": 0.6158241273450386
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "anthropic",
+      "target": "expert_quality",
+      "n": 180,
+      "pearson_r": -0.17217389258643115,
+      "pearson_p": 0.020824642941780956,
+      "spearman_r": -0.23589158293814114,
+      "spearman_p": 0.00143320214500371
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "anthropic",
+      "target": "expert_risk",
+      "n": 180,
+      "pearson_r": -0.010264441117928753,
+      "pearson_p": 0.8912235632851774,
+      "spearman_r": -0.05400609041693783,
+      "spearman_p": 0.47149693528758857
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "deepseek",
+      "target": "expert_quality",
+      "n": 180,
+      "pearson_r": -0.19522784046376335,
+      "pearson_p": 0.008631124280525293,
+      "spearman_r": -0.18810205647024153,
+      "spearman_p": 0.011449044709180858
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "deepseek",
+      "target": "expert_risk",
+      "n": 180,
+      "pearson_r": -0.053919168644574585,
+      "pearson_p": 0.4722117888217595,
+      "spearman_r": -0.055480656508114956,
+      "spearman_p": 0.45946054637290956
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "doubao",
+      "target": "expert_quality",
+      "n": 180,
+      "pearson_r": -0.2167450192335543,
+      "pearson_p": 0.003472301283408133,
+      "spearman_r": -0.22743763450931304,
+      "spearman_p": 0.0021371482402447618
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "doubao",
+      "target": "expert_risk",
+      "n": 180,
+      "pearson_r": -0.06306772275300404,
+      "pearson_p": 0.4003002326082997,
+      "spearman_r": -0.08544328184895582,
+      "spearman_p": 0.2541019834797266
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "gemini",
+      "target": "expert_quality",
+      "n": 180,
+      "pearson_r": -0.22825534067983513,
+      "pearson_p": 0.0020573935556561355,
+      "spearman_r": -0.2219056828013626,
+      "spearman_p": 0.0027547854743241286
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "gemini",
+      "target": "expert_risk",
+      "n": 180,
+      "pearson_r": 0.10169704079771393,
+      "pearson_p": 0.17432788467471583,
+      "spearman_r": 0.14665310808191845,
+      "spearman_p": 0.04947386880750407
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "glm",
+      "target": "expert_quality",
+      "n": 180,
+      "pearson_r": -0.2361338945872168,
+      "pearson_p": 0.001416586628088749,
+      "spearman_r": -0.22005450286352107,
+      "spearman_p": 0.002995060142343798
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "glm",
+      "target": "expert_risk",
+      "n": 180,
+      "pearson_r": 0.05004398787033753,
+      "pearson_p": 0.504675556064279,
+      "spearman_r": 0.11544055208253248,
+      "spearman_p": 0.12278922813009209
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "kimi",
+      "target": "expert_quality",
+      "n": 180,
+      "pearson_r": -0.2531861869029103,
+      "pearson_p": 0.0006052943166551054,
+      "spearman_r": -0.26412652084696386,
+      "spearman_p": 0.0003399584317227935
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "kimi",
+      "target": "expert_risk",
+      "n": 180,
+      "pearson_r": 0.04712167926450171,
+      "pearson_p": 0.5299067666927119,
+      "spearman_r": 0.0824763336752223,
+      "spearman_p": 0.27102567299739705
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "mimo",
+      "target": "expert_quality",
+      "n": 180,
+      "pearson_r": -0.20073394464998712,
+      "pearson_p": 0.006893954070990994,
+      "spearman_r": -0.200445591554241,
+      "spearman_p": 0.006976544251468883
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "mimo",
+      "target": "expert_risk",
+      "n": 180,
+      "pearson_r": 0.12136758502589591,
+      "pearson_p": 0.10459404647564288,
+      "spearman_r": 0.1132528913630515,
+      "spearman_p": 0.13009285814204422
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "openai",
+      "target": "expert_quality",
+      "n": 180,
+      "pearson_r": -0.22949084775430934,
+      "pearson_p": 0.0019420152749925147,
+      "spearman_r": -0.2258537078679016,
+      "spearman_p": 0.002299680442356554
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "openai",
+      "target": "expert_risk",
+      "n": 180,
+      "pearson_r": -0.07651881080967526,
+      "pearson_p": 0.30727662810890427,
+      "spearman_r": -0.08979867502732435,
+      "spearman_p": 0.23060344710421835
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "qwen",
+      "target": "expert_quality",
+      "n": 180,
+      "pearson_r": -0.22016105777562142,
+      "pearson_p": 0.0029807317028658024,
+      "spearman_r": -0.22804610431523142,
+      "spearman_p": 0.0020775394006250104
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "qwen",
+      "target": "expert_risk",
+      "n": 180,
+      "pearson_r": -0.03946669091663422,
+      "pearson_p": 0.5988761594495998,
+      "spearman_r": -0.07498845935793967,
+      "spearman_p": 0.3170801421771262
+    },
+    {
+      "source": "original_web_llm_mean",
+      "judge_provider": "original_web_panel_mean",
+      "target": "expert_quality",
+      "n": 180,
+      "pearson_r": 0.07278233155647044,
+      "pearson_p": 0.3315666914568969,
+      "spearman_r": -0.029645454109029235,
+      "spearman_p": 0.6928049264901022
+    },
+    {
+      "source": "original_web_llm_mean",
+      "judge_provider": "original_web_panel_mean",
+      "target": "expert_risk",
+      "n": 180,
+      "pearson_r": 0.03149371020008674,
+      "pearson_p": 0.6747097919629649,
+      "spearman_r": -0.014783669376282015,
+      "spearman_p": 0.8438489063322934
+    }
+  ],
+  "risk_floor_summary": [
+    {
+      "source": "api_mean",
+      "judge_provider": "all_successful_api_judges",
+      "n": 180,
+      "mean_risk": 2.339506172839506,
+      "risk_floor_eq_1_rate": 0.0,
+      "risk_near_floor_le_1_5_rate": 0.16111111111111112,
+      "risk_le_2_rate": 0.46111111111111114
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "anthropic",
+      "n": 180,
+      "mean_risk": 3.566666666666667,
+      "risk_floor_eq_1_rate": 0.0,
+      "risk_near_floor_le_1_5_rate": 0.0,
+      "risk_le_2_rate": 0.2111111111111111
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "deepseek",
+      "n": 180,
+      "mean_risk": 2.8055555555555554,
+      "risk_floor_eq_1_rate": 0.25,
+      "risk_near_floor_le_1_5_rate": 0.25,
+      "risk_le_2_rate": 0.6055555555555555
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "doubao",
+      "n": 180,
+      "mean_risk": 3.0166666666666666,
+      "risk_floor_eq_1_rate": 0.15,
+      "risk_near_floor_le_1_5_rate": 0.15,
+      "risk_le_2_rate": 0.5055555555555555
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "gemini",
+      "n": 180,
+      "mean_risk": 1.55,
+      "risk_floor_eq_1_rate": 0.6666666666666666,
+      "risk_near_floor_le_1_5_rate": 0.6666666666666666,
+      "risk_le_2_rate": 0.8777777777777778
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "glm",
+      "n": 180,
+      "mean_risk": 1.4944444444444445,
+      "risk_floor_eq_1_rate": 0.7277777777777777,
+      "risk_near_floor_le_1_5_rate": 0.7277777777777777,
+      "risk_le_2_rate": 0.8055555555555556
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "kimi",
+      "n": 180,
+      "mean_risk": 1.7222222222222223,
+      "risk_floor_eq_1_rate": 0.5944444444444444,
+      "risk_near_floor_le_1_5_rate": 0.5944444444444444,
+      "risk_le_2_rate": 0.7277777777777777
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "mimo",
+      "n": 180,
+      "mean_risk": 1.511111111111111,
+      "risk_floor_eq_1_rate": 0.6777777777777778,
+      "risk_near_floor_le_1_5_rate": 0.6777777777777778,
+      "risk_le_2_rate": 0.8888888888888888
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "openai",
+      "n": 180,
+      "mean_risk": 2.783333333333333,
+      "risk_floor_eq_1_rate": 0.15555555555555556,
+      "risk_near_floor_le_1_5_rate": 0.15555555555555556,
+      "risk_le_2_rate": 0.5555555555555556
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "qwen",
+      "n": 180,
+      "mean_risk": 2.6055555555555556,
+      "risk_floor_eq_1_rate": 0.4166666666666667,
+      "risk_near_floor_le_1_5_rate": 0.4166666666666667,
+      "risk_le_2_rate": 0.6055555555555555
+    },
+    {
+      "source": "original_web_llm_mean",
+      "judge_provider": "original_web_panel_mean",
+      "n": 180,
+      "mean_risk": 1.0118055555555556,
+      "risk_floor_eq_1_rate": 0.9388888888888889,
+      "risk_near_floor_le_1_5_rate": 1.0,
+      "risk_le_2_rate": 1.0
+    }
+  ],
+  "interjudge_reliability_summary": [
+    {
+      "metric": "quality",
+      "n_pairs": 36,
+      "mean_pairwise_pearson": 0.891699075259254,
+      "median_pairwise_pearson": 0.8777012100096152,
+      "mean_pairwise_spearman": 0.8222452779575066,
+      "median_pairwise_spearman": 0.8541220866228936
+    },
+    {
+      "metric": "risk",
+      "n_pairs": 36,
+      "mean_pairwise_pearson": 0.23602066131902807,
+      "median_pairwise_pearson": 0.06602920510684021,
+      "mean_pairwise_spearman": 0.21095840426491366,
+      "median_pairwise_spearman": 0.13142137734290993
+    }
+  ],
+  "source_run_manifest": "source_run_manifest_9models.json",
+  "kimi_provider_note": "Kimi complete run found at api_judge_run_20260514_203800; 180 successful unique items. Provider limitations logged: official Kimi API used actual model kimi-k2.6, temperature forced to 1, streaming transport enabled, and max_tokens raised due thinking-output budget limitation."
+}

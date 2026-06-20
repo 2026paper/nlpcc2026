@@ -1,0 +1,9 @@
+theme,mentions,n_respondents,example_quote
+factuality,25,8,容易给出一些不真实的内容
+scenario_use,11,7,在教学实施方面给出建议，如教学课例开发
+misconception_handling,10,8,会出现回避误解
+human_review,6,5,需要审核科普传播的内容是否正确，其次是不要太绝对
+fluency_confidence,6,4,容易产生幻觉，可能看起来说的比较通顺，但实际上原理是错误的
+oversimplification_boundary,6,4,需要审核科普传播的内容是否正确，其次是不要太绝对
+quiz_validity,4,2,有一些选择题可能生成的不太准确，然后生成的文本有的比较晦涩难懂，有的又太口语化
+update_lag,3,3,1建立专业数据库，进行实时更新 2开放实时纠错

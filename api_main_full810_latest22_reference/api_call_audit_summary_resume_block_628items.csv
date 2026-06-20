@@ -1,0 +1,10 @@
+﻿judge_provider,call_attempts,parsed_success,unique_items_attempted,http_429
+anthropic,685,628,628,53
+deepseek,630,628,628,0
+doubao,632,628,628,0
+gemini,1234,628,628,509
+glm,636,628,628,0
+kimi,642,628,628,3
+mimo,637,628,628,0
+openai,1140,628,628,477
+qwen,633,628,628,0

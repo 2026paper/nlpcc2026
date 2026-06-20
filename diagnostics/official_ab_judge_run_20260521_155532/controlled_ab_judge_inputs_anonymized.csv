@@ -1,0 +1,17 @@
+item_id,case_id,version,domain,concept,task_type,generated_text
+A01_A,A01,A,Physics,Projectile motion,controlled_ab_science_explanation,在忽略空气阻力的理想模型中，篮球离手后水平方向通常不再受到持续推力，因此水平速度可以近似保持不变。现实中空气阻力会逐渐减小水平速度，所以课堂中的结论需要放在“理想化模型”这个条件下理解。
+A01_B,A01,B,Physics,Projectile motion,controlled_ab_science_explanation,篮球离手后水平方向不受力，因此水平速度保持不变。它会继续向前运动，是因为物体具有惯性，不需要持续的水平推力。
+A02_A,A02,A,Physics,Net force and acceleration,controlled_ab_science_explanation,如果一个物体速度不变，说明它的加速度为零，因此合力为零。但这不等于“没有任何力”。例如桌上的书同时受到重力和支持力，只是这些力相互平衡，所以合力为零。
+A02_B,A02,B,Physics,Net force and acceleration,controlled_ab_science_explanation,物体速度不变时没有加速度，所以没有力。只有物体开始加速或减速时，力才真正起作用。
+A03_A,A03,A,Biology,Evolution has no predetermined goal,controlled_ab_science_explanation,很多人以为进化有目标，其实进化没有目标。生物只是不断适应环境，所以不能说某种生物一定比另一种生物更高级。
+A03_B,A03,B,Biology,Evolution has no predetermined goal,controlled_ab_science_explanation,很多人以为进化像一条通向“更高级生物”的路线。这个想法的问题在于把结果误认为目的。自然选择不会提前设定方向，只是某些可遗传变异在特定环境中让个体留下更多后代，于是这些变异在群体中变得更常见。
+A04_A,A04,A,Biology,Photosynthesis and cellular respiration,controlled_ab_science_explanation,植物白天进行光合作用，晚上进行呼吸作用。白天它们制造氧气，晚上它们吸收氧气，所以这两个过程可以看成白天和夜晚的分工。
+A04_B,A04,B,Biology,Photosynthesis and cellular respiration,controlled_ab_science_explanation,植物在有光时可以进行光合作用，但细胞呼吸几乎一直发生。光合作用和细胞呼吸不是简单的白天/夜晚开关关系：前者把光能转化为有机物中的化学能，后者分解有机物释放能量供细胞使用。
+A05_A,A05,A,Geoscience,Geological time,controlled_ab_science_explanation,如果把地球历史压缩成一天，人类出现只在最后几秒。这个比喻能帮助我们感受地质时间的巨大尺度，但它只是比例类比，不能说明所有地质过程都匀速发生，也不能替代对具体事件和证据的解释。
+A05_B,A05,B,Geoscience,Geological time,controlled_ab_science_explanation,地球历史就像一天的故事，人类只是最后几秒才登场。因此，地球上的变化都非常缓慢，短时间内发生的变化基本不重要。
+A06_A,A06,A,Climate/Environment,Weather and climate,controlled_ab_science_explanation,某一天很冷不能直接反驳全球变暖，因为天气描述的是短时间、局地的大气状态，而气候关注的是较长时间尺度上的统计趋势。局地冷事件仍可能出现在整体变暖的背景下。
+A06_B,A06,B,Climate/Environment,Weather and climate,controlled_ab_science_explanation,全球变暖只是说平均温度会升高，所以只要某一天很冷，就说明全球变暖并不可靠。天气每天都在变，因此很难说气候真的有趋势。
+A07_A,A07,A,Chemistry,Chemical equilibrium,controlled_ab_science_explanation,化学平衡不是反应停止，而是正反应和逆反应仍在同时进行，只是宏观上浓度不再明显变化。它是一种动态平衡，而不是静止状态。
+A07_B,A07,B,Chemistry,Chemical equilibrium,controlled_ab_science_explanation,化学平衡就是反应达到稳定状态，此时反应已经基本结束，所以各物质的量保持不变。
+A08_A,A08,A,Climate/Environment,Greenhouse effect,controlled_ab_science_explanation,【科学卡片】温室效应就像给地球盖上一层被子。污染让这层被子越来越厚，所以地球越来越热。记住：温室效应就是污染导致的升温！
+A08_B,A08,B,Climate/Environment,Greenhouse effect,controlled_ab_science_explanation,温室效应本身不是污染，而是大气中某些气体吸收并再辐射红外辐射的过程。没有自然温室效应，地球会更冷；问题在于人类活动增加了部分温室气体浓度，使额外增温加剧。

@@ -1,0 +1,10 @@
+raw_field_or_category,redaction_action,public_field_or_output,reason
+raw_response,hashed only,raw_response_sha256; raw_response_bytes,Full provider response bodies are not released.
+system_fingerprint_or_backend_id,hashed/presence only,system_backend_id_present; system_backend_id_sha256,Provider backend identifiers are treated as provider-sensitive traces.
+api_endpoint,generalized and hashed,api_endpoint_host; api_endpoint_sha256,Full endpoint strings are not released.
+"request_timestamp,response_timestamp",date-only plus elapsed duration,request_date; response_date; elapsed_seconds_rounded,Exact call times are not released.
+error_message,hashed/presence only,error_message_present; error_message_sha256,Raw provider error text is not released.
+parsed_scores,retained,fa; cc; lc; tf; mq; risk; parsed_score_present,Parsed judge scores are needed to audit the paper claim.
+model/provider labels and decoding params,retained,judge_provider; model labels; temperature; top_p; seed; max_output_tokens; response_format,"These fields are part of reproducibility, not author identity."
+local absolute source paths,dropped,source_run_dir only,Only logical run-directory names are retained.
+credentials/API keys,not present after scan,none,No credential-like strings were detected in the scanned raw log files.

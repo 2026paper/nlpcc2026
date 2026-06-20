@@ -1,0 +1,132 @@
+{
+  "created_at": "2026-05-14T14:49:50+00:00",
+  "experiment_positioning": "Official API judge-side robustness check; not an exact rerun of the original web-interface experiment.",
+  "included_providers": [
+    "anthropic",
+    "deepseek",
+    "doubao",
+    "gemini",
+    "glm",
+    "kimi",
+    "mimo",
+    "openai",
+    "qwen"
+  ],
+  "n_providers": 9,
+  "n_items_per_provider": {
+    "anthropic": 180,
+    "deepseek": 180,
+    "doubao": 180,
+    "gemini": 180,
+    "glm": 180,
+    "kimi": 180,
+    "mimo": 180,
+    "openai": 180,
+    "qwen": 180
+  },
+  "total_success_score_rows": 1620,
+  "source_runs": [
+    {
+      "provider": "openai",
+      "source_run_dir": "api_judge_run_20260514_163748",
+      "score_rows": 180,
+      "unique_items": 180,
+      "returned_models": [
+        "gpt-5.5-2026-04-23"
+      ],
+      "prompt_tokens": 188081,
+      "completion_tokens": 99160
+    },
+    {
+      "provider": "gemini",
+      "source_run_dir": "api_judge_run_20260514_202126",
+      "score_rows": 180,
+      "unique_items": 180,
+      "returned_models": [
+        "gemini-3.1-pro-preview"
+      ],
+      "prompt_tokens": 152814,
+      "completion_tokens": 20739
+    },
+    {
+      "provider": "anthropic",
+      "source_run_dir": "api_judge_run_20260514_184921",
+      "score_rows": 180,
+      "unique_items": 180,
+      "returned_models": [
+        "claude-sonnet-4-6"
+      ],
+      "prompt_tokens": 213053,
+      "completion_tokens": 31723
+    },
+    {
+      "provider": "deepseek",
+      "source_run_dir": "api_judge_run_20260514_200305",
+      "score_rows": 180,
+      "unique_items": 180,
+      "returned_models": [
+        "deepseek-v4-pro"
+      ],
+      "prompt_tokens": 137834,
+      "completion_tokens": 16920
+    },
+    {
+      "provider": "doubao",
+      "source_run_dir": "api_judge_run_20260514_210500_doubao2pro_full",
+      "score_rows": 180,
+      "unique_items": 180,
+      "returned_models": [
+        "doubao-seed-2-0-pro-260215"
+      ],
+      "prompt_tokens": 159792,
+      "completion_tokens": 23220
+    },
+    {
+      "provider": "glm",
+      "source_run_dir": "api_judge_run_20260514_203439",
+      "score_rows": 180,
+      "unique_items": 180,
+      "returned_models": [
+        "glm-5.1"
+      ],
+      "prompt_tokens": 149214,
+      "completion_tokens": 187905
+    },
+    {
+      "provider": "qwen",
+      "source_run_dir": "api_judge_run_20260514_212205",
+      "score_rows": 180,
+      "unique_items": 180,
+      "returned_models": [
+        "qwen3.5-plus"
+      ],
+      "prompt_tokens": 147444,
+      "completion_tokens": 66240
+    },
+    {
+      "provider": "mimo",
+      "source_run_dir": "api_judge_run_20260514_193021",
+      "score_rows": 180,
+      "unique_items": 180,
+      "returned_models": [
+        "mimo-v2.5-pro"
+      ],
+      "prompt_tokens": 145753,
+      "completion_tokens": 18180
+    },
+    {
+      "provider": "kimi",
+      "source_run_dir": "api_judge_run_20260514_203800",
+      "score_rows": 180,
+      "unique_items": 180,
+      "returned_models": [
+        "kimi-k2.6"
+      ],
+      "prompt_tokens": 135524.0,
+      "completion_tokens": 505214.0,
+      "attempt_audit_file": "api_outputs/api_judge_run_20260514_203800\\api_judge_scores_attempts_with_failures.csv"
+    }
+  ],
+  "base_8model_combined_dir": "api_outputs/api_judge_combined_8models_20260514",
+  "kimi_complete_run_dir": "api_outputs/api_judge_run_20260514_203800"
+}

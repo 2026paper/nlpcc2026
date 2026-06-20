@@ -1,0 +1,217 @@
+expert_id,case_id,mechanism,selected,comment
+oBkK3QzErbW,C1,fluency or confident expression lowers risk perception,False,题目给出的条件不够清晰充分，难免会导向不同的评价。
+oBkK3QzErbW,C1,formal task compliance without real misconception response,False,题目给出的条件不够清晰充分，难免会导向不同的评价。
+oBkK3QzErbW,C1,internal coherence without external fact checking,True,题目给出的条件不够清晰充分，难免会导向不同的评价。
+oBkK3QzErbW,C1,surface mention rather than deep misconception repair,False,题目给出的条件不够清晰充分，难免会导向不同的评价。
+oBkK3QzErbW,C1,missing boundary or applicability conditions,False,题目给出的条件不够清晰充分，难免会导向不同的评价。
+oBkK3QzErbW,C1,ambiguous or incorrect quiz design,True,题目给出的条件不够清晰充分，难免会导向不同的评价。
+oBkK3QzErbW,C1,different interpretation of scoring dimensions,False,题目给出的条件不够清晰充分，难免会导向不同的评价。
+oBkK3QzErbW,C1,no substantial disagreement,False,题目给出的条件不够清晰充分，难免会导向不同的评价。
+oBkK3QzErbW,C1,other,False,题目给出的条件不够清晰充分，难免会导向不同的评价。
+oBkK3QzErbW,C2,fluency or confident expression lowers risk perception,True,表述和用词上还不够清晰明确，但作为科普来说已经足够
+oBkK3QzErbW,C2,formal task compliance without real misconception response,False,表述和用词上还不够清晰明确，但作为科普来说已经足够
+oBkK3QzErbW,C2,internal coherence without external fact checking,False,表述和用词上还不够清晰明确，但作为科普来说已经足够
+oBkK3QzErbW,C2,surface mention rather than deep misconception repair,True,表述和用词上还不够清晰明确，但作为科普来说已经足够
+oBkK3QzErbW,C2,missing boundary or applicability conditions,False,表述和用词上还不够清晰明确，但作为科普来说已经足够
+oBkK3QzErbW,C2,ambiguous or incorrect quiz design,False,表述和用词上还不够清晰明确，但作为科普来说已经足够
+oBkK3QzErbW,C2,different interpretation of scoring dimensions,False,表述和用词上还不够清晰明确，但作为科普来说已经足够
+oBkK3QzErbW,C2,no substantial disagreement,False,表述和用词上还不够清晰明确，但作为科普来说已经足够
+oBkK3QzErbW,C2,other,False,表述和用词上还不够清晰明确，但作为科普来说已经足够
+oBkK3QzErbW,C3,fluency or confident expression lowers risk perception,False,B组认为不准确可能是因为例子涵盖了所有地质变化，但实际上会有很多种情况。
+oBkK3QzErbW,C3,formal task compliance without real misconception response,False,B组认为不准确可能是因为例子涵盖了所有地质变化，但实际上会有很多种情况。
+oBkK3QzErbW,C3,internal coherence without external fact checking,False,B组认为不准确可能是因为例子涵盖了所有地质变化，但实际上会有很多种情况。
+oBkK3QzErbW,C3,surface mention rather than deep misconception repair,False,B组认为不准确可能是因为例子涵盖了所有地质变化，但实际上会有很多种情况。
+oBkK3QzErbW,C3,missing boundary or applicability conditions,True,B组认为不准确可能是因为例子涵盖了所有地质变化，但实际上会有很多种情况。
+oBkK3QzErbW,C3,ambiguous or incorrect quiz design,False,B组认为不准确可能是因为例子涵盖了所有地质变化，但实际上会有很多种情况。
+oBkK3QzErbW,C3,different interpretation of scoring dimensions,False,B组认为不准确可能是因为例子涵盖了所有地质变化，但实际上会有很多种情况。
+oBkK3QzErbW,C3,no substantial disagreement,False,B组认为不准确可能是因为例子涵盖了所有地质变化，但实际上会有很多种情况。
+oBkK3QzErbW,C3,other,False,B组认为不准确可能是因为例子涵盖了所有地质变化，但实际上会有很多种情况。
+oBkK3QzErbW,C4,fluency or confident expression lowers risk perception,True,案例中说明已经足够详尽，但在表述上容易误导公众，应当进一步说明消耗氧气的程度。
+oBkK3QzErbW,C4,formal task compliance without real misconception response,False,案例中说明已经足够详尽，但在表述上容易误导公众，应当进一步说明消耗氧气的程度。
+oBkK3QzErbW,C4,internal coherence without external fact checking,False,案例中说明已经足够详尽，但在表述上容易误导公众，应当进一步说明消耗氧气的程度。
+oBkK3QzErbW,C4,surface mention rather than deep misconception repair,False,案例中说明已经足够详尽，但在表述上容易误导公众，应当进一步说明消耗氧气的程度。
+oBkK3QzErbW,C4,missing boundary or applicability conditions,False,案例中说明已经足够详尽，但在表述上容易误导公众，应当进一步说明消耗氧气的程度。
+oBkK3QzErbW,C4,ambiguous or incorrect quiz design,False,案例中说明已经足够详尽，但在表述上容易误导公众，应当进一步说明消耗氧气的程度。
+oBkK3QzErbW,C4,different interpretation of scoring dimensions,False,案例中说明已经足够详尽，但在表述上容易误导公众，应当进一步说明消耗氧气的程度。
+oBkK3QzErbW,C4,no substantial disagreement,False,案例中说明已经足够详尽，但在表述上容易误导公众，应当进一步说明消耗氧气的程度。
+oBkK3QzErbW,C4,other,False,案例中说明已经足够详尽，但在表述上容易误导公众，应当进一步说明消耗氧气的程度。
+oBkK3QzErbW,C5,fluency or confident expression lowers risk perception,False,标题设计不够清晰、通俗，容易引发误解
+oBkK3QzErbW,C5,formal task compliance without real misconception response,False,标题设计不够清晰、通俗，容易引发误解
+oBkK3QzErbW,C5,internal coherence without external fact checking,False,标题设计不够清晰、通俗，容易引发误解
+oBkK3QzErbW,C5,surface mention rather than deep misconception repair,False,标题设计不够清晰、通俗，容易引发误解
+oBkK3QzErbW,C5,missing boundary or applicability conditions,False,标题设计不够清晰、通俗，容易引发误解
+oBkK3QzErbW,C5,ambiguous or incorrect quiz design,True,标题设计不够清晰、通俗，容易引发误解
+oBkK3QzErbW,C5,different interpretation of scoring dimensions,True,标题设计不够清晰、通俗，容易引发误解
+oBkK3QzErbW,C5,no substantial disagreement,False,标题设计不够清晰、通俗，容易引发误解
+oBkK3QzErbW,C5,other,False,标题设计不够清晰、通俗，容易引发误解
+oBkK3QzErbW,C6,fluency or confident expression lowers risk perception,False,题目只提出了问题但并没有解答
+oBkK3QzErbW,C6,formal task compliance without real misconception response,False,题目只提出了问题但并没有解答
+oBkK3QzErbW,C6,internal coherence without external fact checking,False,题目只提出了问题但并没有解答
+oBkK3QzErbW,C6,surface mention rather than deep misconception repair,True,题目只提出了问题但并没有解答
+oBkK3QzErbW,C6,missing boundary or applicability conditions,False,题目只提出了问题但并没有解答
+oBkK3QzErbW,C6,ambiguous or incorrect quiz design,False,题目只提出了问题但并没有解答
+oBkK3QzErbW,C6,different interpretation of scoring dimensions,False,题目只提出了问题但并没有解答
+oBkK3QzErbW,C6,no substantial disagreement,False,题目只提出了问题但并没有解答
+oBkK3QzErbW,C6,other,False,题目只提出了问题但并没有解答
+WP1bKQB1ZBy,C1,fluency or confident expression lowers risk perception,False,题目不够清晰，不同评分者对具体维度的理解应该差异较大，所以引起结果不同。
+WP1bKQB1ZBy,C1,formal task compliance without real misconception response,False,题目不够清晰，不同评分者对具体维度的理解应该差异较大，所以引起结果不同。
+WP1bKQB1ZBy,C1,internal coherence without external fact checking,False,题目不够清晰，不同评分者对具体维度的理解应该差异较大，所以引起结果不同。
+WP1bKQB1ZBy,C1,surface mention rather than deep misconception repair,False,题目不够清晰，不同评分者对具体维度的理解应该差异较大，所以引起结果不同。
+WP1bKQB1ZBy,C1,missing boundary or applicability conditions,True,题目不够清晰，不同评分者对具体维度的理解应该差异较大，所以引起结果不同。
+WP1bKQB1ZBy,C1,ambiguous or incorrect quiz design,True,题目不够清晰，不同评分者对具体维度的理解应该差异较大，所以引起结果不同。
+WP1bKQB1ZBy,C1,different interpretation of scoring dimensions,True,题目不够清晰，不同评分者对具体维度的理解应该差异较大，所以引起结果不同。
+WP1bKQB1ZBy,C1,no substantial disagreement,False,题目不够清晰，不同评分者对具体维度的理解应该差异较大，所以引起结果不同。
+WP1bKQB1ZBy,C1,other,False,题目不够清晰，不同评分者对具体维度的理解应该差异较大，所以引起结果不同。
+WP1bKQB1ZBy,C2,fluency or confident expression lowers risk perception,True,有具体情景，有人物，有干扰影响。具体范围没有明确。
+WP1bKQB1ZBy,C2,formal task compliance without real misconception response,False,有具体情景，有人物，有干扰影响。具体范围没有明确。
+WP1bKQB1ZBy,C2,internal coherence without external fact checking,False,有具体情景，有人物，有干扰影响。具体范围没有明确。
+WP1bKQB1ZBy,C2,surface mention rather than deep misconception repair,False,有具体情景，有人物，有干扰影响。具体范围没有明确。
+WP1bKQB1ZBy,C2,missing boundary or applicability conditions,True,有具体情景，有人物，有干扰影响。具体范围没有明确。
+WP1bKQB1ZBy,C2,ambiguous or incorrect quiz design,False,有具体情景，有人物，有干扰影响。具体范围没有明确。
+WP1bKQB1ZBy,C2,different interpretation of scoring dimensions,False,有具体情景，有人物，有干扰影响。具体范围没有明确。
+WP1bKQB1ZBy,C2,no substantial disagreement,False,有具体情景，有人物，有干扰影响。具体范围没有明确。
+WP1bKQB1ZBy,C2,other,False,有具体情景，有人物，有干扰影响。具体范围没有明确。
+WP1bKQB1ZBy,C3,fluency or confident expression lowers risk perception,False,部分人可以理解时间和指甲的相对关系，部分人会关注地质年代时间尺度和人的时间尺度间鸿沟。
+WP1bKQB1ZBy,C3,formal task compliance without real misconception response,False,部分人可以理解时间和指甲的相对关系，部分人会关注地质年代时间尺度和人的时间尺度间鸿沟。
+WP1bKQB1ZBy,C3,internal coherence without external fact checking,False,部分人可以理解时间和指甲的相对关系，部分人会关注地质年代时间尺度和人的时间尺度间鸿沟。
+WP1bKQB1ZBy,C3,surface mention rather than deep misconception repair,False,部分人可以理解时间和指甲的相对关系，部分人会关注地质年代时间尺度和人的时间尺度间鸿沟。
+WP1bKQB1ZBy,C3,missing boundary or applicability conditions,False,部分人可以理解时间和指甲的相对关系，部分人会关注地质年代时间尺度和人的时间尺度间鸿沟。
+WP1bKQB1ZBy,C3,ambiguous or incorrect quiz design,False,部分人可以理解时间和指甲的相对关系，部分人会关注地质年代时间尺度和人的时间尺度间鸿沟。
+WP1bKQB1ZBy,C3,different interpretation of scoring dimensions,True,部分人可以理解时间和指甲的相对关系，部分人会关注地质年代时间尺度和人的时间尺度间鸿沟。
+WP1bKQB1ZBy,C3,no substantial disagreement,False,部分人可以理解时间和指甲的相对关系，部分人会关注地质年代时间尺度和人的时间尺度间鸿沟。
+WP1bKQB1ZBy,C3,other,False,部分人可以理解时间和指甲的相对关系，部分人会关注地质年代时间尺度和人的时间尺度间鸿沟。
+WP1bKQB1ZBy,C4,fluency or confident expression lowers risk perception,False,条件和范围没有明确。题目容易让人忽略是否是全天
+WP1bKQB1ZBy,C4,formal task compliance without real misconception response,False,条件和范围没有明确。题目容易让人忽略是否是全天
+WP1bKQB1ZBy,C4,internal coherence without external fact checking,False,条件和范围没有明确。题目容易让人忽略是否是全天
+WP1bKQB1ZBy,C4,surface mention rather than deep misconception repair,False,条件和范围没有明确。题目容易让人忽略是否是全天
+WP1bKQB1ZBy,C4,missing boundary or applicability conditions,True,条件和范围没有明确。题目容易让人忽略是否是全天
+WP1bKQB1ZBy,C4,ambiguous or incorrect quiz design,True,条件和范围没有明确。题目容易让人忽略是否是全天
+WP1bKQB1ZBy,C4,different interpretation of scoring dimensions,False,条件和范围没有明确。题目容易让人忽略是否是全天
+WP1bKQB1ZBy,C4,no substantial disagreement,False,条件和范围没有明确。题目容易让人忽略是否是全天
+WP1bKQB1ZBy,C4,other,False,条件和范围没有明确。题目容易让人忽略是否是全天
+WP1bKQB1ZBy,C5,fluency or confident expression lowers risk perception,False,没有详细完成科普
+WP1bKQB1ZBy,C5,formal task compliance without real misconception response,False,没有详细完成科普
+WP1bKQB1ZBy,C5,internal coherence without external fact checking,False,没有详细完成科普
+WP1bKQB1ZBy,C5,surface mention rather than deep misconception repair,False,没有详细完成科普
+WP1bKQB1ZBy,C5,missing boundary or applicability conditions,False,没有详细完成科普
+WP1bKQB1ZBy,C5,ambiguous or incorrect quiz design,False,没有详细完成科普
+WP1bKQB1ZBy,C5,different interpretation of scoring dimensions,True,没有详细完成科普
+WP1bKQB1ZBy,C5,no substantial disagreement,False,没有详细完成科普
+WP1bKQB1ZBy,C5,other,False,没有详细完成科普
+WP1bKQB1ZBy,C6,fluency or confident expression lowers risk perception,False,解释的不够清晰，不够详细
+WP1bKQB1ZBy,C6,formal task compliance without real misconception response,True,解释的不够清晰，不够详细
+WP1bKQB1ZBy,C6,internal coherence without external fact checking,False,解释的不够清晰，不够详细
+WP1bKQB1ZBy,C6,surface mention rather than deep misconception repair,True,解释的不够清晰，不够详细
+WP1bKQB1ZBy,C6,missing boundary or applicability conditions,False,解释的不够清晰，不够详细
+WP1bKQB1ZBy,C6,ambiguous or incorrect quiz design,False,解释的不够清晰，不够详细
+WP1bKQB1ZBy,C6,different interpretation of scoring dimensions,False,解释的不够清晰，不够详细
+WP1bKQB1ZBy,C6,no substantial disagreement,False,解释的不够清晰，不够详细
+WP1bKQB1ZBy,C6,other,False,解释的不够清晰，不够详细
+XOX582p6vEG,C1,fluency or confident expression lowers risk perception,False,分歧差异过大，是否是在表达过程中产生了歧义？如果是面向学生的科普，知识点是否覆盖的足够全面
+XOX582p6vEG,C1,formal task compliance without real misconception response,False,分歧差异过大，是否是在表达过程中产生了歧义？如果是面向学生的科普，知识点是否覆盖的足够全面
+XOX582p6vEG,C1,internal coherence without external fact checking,False,分歧差异过大，是否是在表达过程中产生了歧义？如果是面向学生的科普，知识点是否覆盖的足够全面
+XOX582p6vEG,C1,surface mention rather than deep misconception repair,False,分歧差异过大，是否是在表达过程中产生了歧义？如果是面向学生的科普，知识点是否覆盖的足够全面
+XOX582p6vEG,C1,missing boundary or applicability conditions,True,分歧差异过大，是否是在表达过程中产生了歧义？如果是面向学生的科普，知识点是否覆盖的足够全面
+XOX582p6vEG,C1,ambiguous or incorrect quiz design,False,分歧差异过大，是否是在表达过程中产生了歧义？如果是面向学生的科普，知识点是否覆盖的足够全面
+XOX582p6vEG,C1,different interpretation of scoring dimensions,True,分歧差异过大，是否是在表达过程中产生了歧义？如果是面向学生的科普，知识点是否覆盖的足够全面
+XOX582p6vEG,C1,no substantial disagreement,False,分歧差异过大，是否是在表达过程中产生了歧义？如果是面向学生的科普，知识点是否覆盖的足够全面
+XOX582p6vEG,C1,other,False,分歧差异过大，是否是在表达过程中产生了歧义？如果是面向学生的科普，知识点是否覆盖的足够全面
+XOX582p6vEG,C2,fluency or confident expression lowers risk perception,False,两组评委均认为误导风险小
+XOX582p6vEG,C2,formal task compliance without real misconception response,False,两组评委均认为误导风险小
+XOX582p6vEG,C2,internal coherence without external fact checking,False,两组评委均认为误导风险小
+XOX582p6vEG,C2,surface mention rather than deep misconception repair,False,两组评委均认为误导风险小
+XOX582p6vEG,C2,missing boundary or applicability conditions,False,两组评委均认为误导风险小
+XOX582p6vEG,C2,ambiguous or incorrect quiz design,False,两组评委均认为误导风险小
+XOX582p6vEG,C2,different interpretation of scoring dimensions,False,两组评委均认为误导风险小
+XOX582p6vEG,C2,no substantial disagreement,True,两组评委均认为误导风险小
+XOX582p6vEG,C2,other,False,两组评委均认为误导风险小
+XOX582p6vEG,C3,fluency or confident expression lowers risk perception,False,两组评分差距不大，误导风险较小
+XOX582p6vEG,C3,formal task compliance without real misconception response,False,两组评分差距不大，误导风险较小
+XOX582p6vEG,C3,internal coherence without external fact checking,False,两组评分差距不大，误导风险较小
+XOX582p6vEG,C3,surface mention rather than deep misconception repair,False,两组评分差距不大，误导风险较小
+XOX582p6vEG,C3,missing boundary or applicability conditions,False,两组评分差距不大，误导风险较小
+XOX582p6vEG,C3,ambiguous or incorrect quiz design,False,两组评分差距不大，误导风险较小
+XOX582p6vEG,C3,different interpretation of scoring dimensions,False,两组评分差距不大，误导风险较小
+XOX582p6vEG,C3,no substantial disagreement,True,两组评分差距不大，误导风险较小
+XOX582p6vEG,C3,other,False,两组评分差距不大，误导风险较小
+XOX582p6vEG,C4,fluency or confident expression lowers risk perception,False,两组评分差异不大
+XOX582p6vEG,C4,formal task compliance without real misconception response,False,两组评分差异不大
+XOX582p6vEG,C4,internal coherence without external fact checking,False,两组评分差异不大
+XOX582p6vEG,C4,surface mention rather than deep misconception repair,False,两组评分差异不大
+XOX582p6vEG,C4,missing boundary or applicability conditions,False,两组评分差异不大
+XOX582p6vEG,C4,ambiguous or incorrect quiz design,False,两组评分差异不大
+XOX582p6vEG,C4,different interpretation of scoring dimensions,False,两组评分差异不大
+XOX582p6vEG,C4,no substantial disagreement,True,两组评分差异不大
+XOX582p6vEG,C4,other,False,两组评分差异不大
+XOX582p6vEG,C5,fluency or confident expression lowers risk perception,False,事实准确性较高，但是有误差，只可能是对评分维度理解不同
+XOX582p6vEG,C5,formal task compliance without real misconception response,False,事实准确性较高，但是有误差，只可能是对评分维度理解不同
+XOX582p6vEG,C5,internal coherence without external fact checking,False,事实准确性较高，但是有误差，只可能是对评分维度理解不同
+XOX582p6vEG,C5,surface mention rather than deep misconception repair,False,事实准确性较高，但是有误差，只可能是对评分维度理解不同
+XOX582p6vEG,C5,missing boundary or applicability conditions,False,事实准确性较高，但是有误差，只可能是对评分维度理解不同
+XOX582p6vEG,C5,ambiguous or incorrect quiz design,False,事实准确性较高，但是有误差，只可能是对评分维度理解不同
+XOX582p6vEG,C5,different interpretation of scoring dimensions,True,事实准确性较高，但是有误差，只可能是对评分维度理解不同
+XOX582p6vEG,C5,no substantial disagreement,False,事实准确性较高，但是有误差，只可能是对评分维度理解不同
+XOX582p6vEG,C5,other,False,事实准确性较高，但是有误差，只可能是对评分维度理解不同
+XOX582p6vEG,C6,fluency or confident expression lowers risk perception,False,只给出关键词，没有深度解释
+XOX582p6vEG,C6,formal task compliance without real misconception response,False,只给出关键词，没有深度解释
+XOX582p6vEG,C6,internal coherence without external fact checking,False,只给出关键词，没有深度解释
+XOX582p6vEG,C6,surface mention rather than deep misconception repair,False,只给出关键词，没有深度解释
+XOX582p6vEG,C6,missing boundary or applicability conditions,True,只给出关键词，没有深度解释
+XOX582p6vEG,C6,ambiguous or incorrect quiz design,True,只给出关键词，没有深度解释
+XOX582p6vEG,C6,different interpretation of scoring dimensions,True,只给出关键词，没有深度解释
+XOX582p6vEG,C6,no substantial disagreement,False,只给出关键词，没有深度解释
+XOX582p6vEG,C6,other,False,只给出关键词，没有深度解释
+NRAWm1llkVR,C1,fluency or confident expression lowers risk perception,False,我感觉是人工和AI对中文的理解不同，所以导致他们做的题目的结果不同
+NRAWm1llkVR,C1,formal task compliance without real misconception response,True,我感觉是人工和AI对中文的理解不同，所以导致他们做的题目的结果不同
+NRAWm1llkVR,C1,internal coherence without external fact checking,False,我感觉是人工和AI对中文的理解不同，所以导致他们做的题目的结果不同
+NRAWm1llkVR,C1,surface mention rather than deep misconception repair,True,我感觉是人工和AI对中文的理解不同，所以导致他们做的题目的结果不同
+NRAWm1llkVR,C1,missing boundary or applicability conditions,False,我感觉是人工和AI对中文的理解不同，所以导致他们做的题目的结果不同
+NRAWm1llkVR,C1,ambiguous or incorrect quiz design,True,我感觉是人工和AI对中文的理解不同，所以导致他们做的题目的结果不同
+NRAWm1llkVR,C1,different interpretation of scoring dimensions,True,我感觉是人工和AI对中文的理解不同，所以导致他们做的题目的结果不同
+NRAWm1llkVR,C1,no substantial disagreement,False,我感觉是人工和AI对中文的理解不同，所以导致他们做的题目的结果不同
+NRAWm1llkVR,C1,other,False,我感觉是人工和AI对中文的理解不同，所以导致他们做的题目的结果不同
+NRAWm1llkVR,C2,fluency or confident expression lowers risk perception,False,可能有个评委觉得概念和题目不一样吧，就是觉得偏题了
+NRAWm1llkVR,C2,formal task compliance without real misconception response,False,可能有个评委觉得概念和题目不一样吧，就是觉得偏题了
+NRAWm1llkVR,C2,internal coherence without external fact checking,True,可能有个评委觉得概念和题目不一样吧，就是觉得偏题了
+NRAWm1llkVR,C2,surface mention rather than deep misconception repair,False,可能有个评委觉得概念和题目不一样吧，就是觉得偏题了
+NRAWm1llkVR,C2,missing boundary or applicability conditions,False,可能有个评委觉得概念和题目不一样吧，就是觉得偏题了
+NRAWm1llkVR,C2,ambiguous or incorrect quiz design,True,可能有个评委觉得概念和题目不一样吧，就是觉得偏题了
+NRAWm1llkVR,C2,different interpretation of scoring dimensions,True,可能有个评委觉得概念和题目不一样吧，就是觉得偏题了
+NRAWm1llkVR,C2,no substantial disagreement,False,可能有个评委觉得概念和题目不一样吧，就是觉得偏题了
+NRAWm1llkVR,C2,other,False,可能有个评委觉得概念和题目不一样吧，就是觉得偏题了
+NRAWm1llkVR,C3,fluency or confident expression lowers risk perception,True,指甲生长没那么慢，评审A很明显不对啊
+NRAWm1llkVR,C3,formal task compliance without real misconception response,False,指甲生长没那么慢，评审A很明显不对啊
+NRAWm1llkVR,C3,internal coherence without external fact checking,False,指甲生长没那么慢，评审A很明显不对啊
+NRAWm1llkVR,C3,surface mention rather than deep misconception repair,False,指甲生长没那么慢，评审A很明显不对啊
+NRAWm1llkVR,C3,missing boundary or applicability conditions,True,指甲生长没那么慢，评审A很明显不对啊
+NRAWm1llkVR,C3,ambiguous or incorrect quiz design,True,指甲生长没那么慢，评审A很明显不对啊
+NRAWm1llkVR,C3,different interpretation of scoring dimensions,False,指甲生长没那么慢，评审A很明显不对啊
+NRAWm1llkVR,C3,no substantial disagreement,False,指甲生长没那么慢，评审A很明显不对啊
+NRAWm1llkVR,C3,other,False,指甲生长没那么慢，评审A很明显不对啊
+NRAWm1llkVR,C4,fluency or confident expression lowers risk perception,False,高考或者不高考是完全不一样的答案，有的时候是以教科书为准还是以最新的科学知识为准？
+NRAWm1llkVR,C4,formal task compliance without real misconception response,False,高考或者不高考是完全不一样的答案，有的时候是以教科书为准还是以最新的科学知识为准？
+NRAWm1llkVR,C4,internal coherence without external fact checking,False,高考或者不高考是完全不一样的答案，有的时候是以教科书为准还是以最新的科学知识为准？
+NRAWm1llkVR,C4,surface mention rather than deep misconception repair,False,高考或者不高考是完全不一样的答案，有的时候是以教科书为准还是以最新的科学知识为准？
+NRAWm1llkVR,C4,missing boundary or applicability conditions,True,高考或者不高考是完全不一样的答案，有的时候是以教科书为准还是以最新的科学知识为准？
+NRAWm1llkVR,C4,ambiguous or incorrect quiz design,False,高考或者不高考是完全不一样的答案，有的时候是以教科书为准还是以最新的科学知识为准？
+NRAWm1llkVR,C4,different interpretation of scoring dimensions,False,高考或者不高考是完全不一样的答案，有的时候是以教科书为准还是以最新的科学知识为准？
+NRAWm1llkVR,C4,no substantial disagreement,False,高考或者不高考是完全不一样的答案，有的时候是以教科书为准还是以最新的科学知识为准？
+NRAWm1llkVR,C4,other,False,高考或者不高考是完全不一样的答案，有的时候是以教科书为准还是以最新的科学知识为准？
+NRAWm1llkVR,C5,fluency or confident expression lowers risk perception,True,很多题目的条件都不够严谨
+NRAWm1llkVR,C5,formal task compliance without real misconception response,True,很多题目的条件都不够严谨
+NRAWm1llkVR,C5,internal coherence without external fact checking,False,很多题目的条件都不够严谨
+NRAWm1llkVR,C5,surface mention rather than deep misconception repair,False,很多题目的条件都不够严谨
+NRAWm1llkVR,C5,missing boundary or applicability conditions,True,很多题目的条件都不够严谨
+NRAWm1llkVR,C5,ambiguous or incorrect quiz design,False,很多题目的条件都不够严谨
+NRAWm1llkVR,C5,different interpretation of scoring dimensions,False,很多题目的条件都不够严谨
+NRAWm1llkVR,C5,no substantial disagreement,False,很多题目的条件都不够严谨
+NRAWm1llkVR,C5,other,False,很多题目的条件都不够严谨
+NRAWm1llkVR,C6,fluency or confident expression lowers risk perception,False,缺少太多限制条件了，不严谨
+NRAWm1llkVR,C6,formal task compliance without real misconception response,False,缺少太多限制条件了，不严谨
+NRAWm1llkVR,C6,internal coherence without external fact checking,True,缺少太多限制条件了，不严谨
+NRAWm1llkVR,C6,surface mention rather than deep misconception repair,True,缺少太多限制条件了，不严谨
+NRAWm1llkVR,C6,missing boundary or applicability conditions,True,缺少太多限制条件了，不严谨
+NRAWm1llkVR,C6,ambiguous or incorrect quiz design,True,缺少太多限制条件了，不严谨
+NRAWm1llkVR,C6,different interpretation of scoring dimensions,False,缺少太多限制条件了，不严谨
+NRAWm1llkVR,C6,no substantial disagreement,False,缺少太多限制条件了，不严谨
+NRAWm1llkVR,C6,other,False,缺少太多限制条件了，不严谨

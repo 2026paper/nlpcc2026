@@ -1,0 +1,14 @@
+{
+  "n_items": 810,
+  "n_task_a": 270,
+  "n_task_b": 270,
+  "n_task_c": 270,
+  "n_integrity_pass": 540,
+  "n_integrity_fail": 270,
+  "task_c_integrity_pass": 0,
+  "task_c_answer_label_only": 270,
+  "task_c_source_corpus_full_quiz_fields": 270,
+  "interpretation": "The API-main Task-C judge inputs are not full quiz items; they are answer labels only. Task-C API scores should therefore be treated as an input-serialization/task-format diagnostic, not as direct evidence about calibrated quiz-item judging.",
+  "prompt_sha256": "8a952e055b9cf98356cefd708b735bf028e0cbdbbc99e406c16d10660ac1d457",
+  "schema_sha256": "80437f32e8488f841874dad46c7be988ebfdf6cada8d0999829231e0767680ef"
+}

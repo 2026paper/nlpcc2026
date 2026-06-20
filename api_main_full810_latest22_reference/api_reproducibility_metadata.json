@@ -1,0 +1,494 @@
+{
+  "experiment_name": "api_primary_full810_latest22_human_audit",
+  "created_at": "2026-05-27T09:37:19+00:00",
+  "run_dir": "WITHHELD_LOCAL_API_RUN_DIRECTORY/api_judge_full810_incremental_20260527",
+  "positioning_statement": "This metadata describes the auditable provider-adapter API scoring layer used by the revised manuscript: nine API judges scored all 810 anonymized judge inputs with fixed prompts, structured JSON validation, recorded provider settings, and a limited 22-questionnaire human-audit reference. A post hoc input-integrity audit found that Task-C API-main inputs were answer-label-only, so Task-C API scores are diagnostic-only.",
+  "input_files": {
+    "generated_810_csv": {
+      "path": "PACKAGE_ROOT/main_study_data/generated_items_810.csv",
+      "sha256": "75c32947f916973ab9c2b03e496df77411b41699c1a01adbe4a42771f64024be"
+    },
+    "web_scores_6929_csv": {
+      "path": "PACKAGE_ROOT/main_study_data/llm_judge_scores_6929.csv",
+      "sha256": "2029fc7a7ccccf92e24ee71328bfd15ce220c1a64bb1ab3c15ff4fda6441612a"
+    },
+    "latest22_human_scores_long_csv": {
+      "path": "PACKAGE_ROOT/api_main_full810_latest22_reference/human_audit_latest22_scores_long.csv",
+      "sha256": "b31bdefee8798c2594fe0b76b99d81c6b7e94a7c3c3fdf5e3a75bed0bd1fdadf"
+    },
+    "latest22_alignment_csv": {
+      "path": "PACKAGE_ROOT/api_main_full810_latest22_reference/api_web_alignment_items_latest22.csv",
+      "sha256": "b183181edc7622c6ebbacf09e03adc999f5c92d4e022cab2fac733a76a5976f7"
+    },
+    "human_audit_latest22_item_means_csv": {
+      "path": "PACKAGE_ROOT/api_main_full810_latest22_reference/human_audit_latest22_item_means.csv",
+      "sha256": "7e3ec0e4ab7f748983d474237b28efe96732deb04563d824d12d849f504dc0c3"
+    },
+    "api_judge_scores_long_7290_redacted_csv": {
+      "path": "PACKAGE_ROOT/api_main_full810_latest22_reference/api_judge_scores_long_7290_redacted.csv",
+      "sha256": "6b5c851a1b70b79af0388b3597d4fcacd359ceba282682a54b50eded33e56d3a"
+    },
+    "judge_inputs_anonymized_810_csv": {
+      "path": "PACKAGE_ROOT/api_main_full810_latest22_reference/judge_inputs_anonymized_810.csv",
+      "sha256": "b29ffa1dfe70dcb1eb18945f3c368627ba46c149eff90904890042b1d2c977a4"
+    },
+    "input_integrity_report_csv": {
+      "path": "PACKAGE_ROOT/api_main_full810_latest22_reference/input_integrity_report.csv",
+      "sha256": "5b65af3b978a118ab623235896894d9f35ebce14376fd8faa6da8cd9facbff1c"
+    },
+    "input_integrity_summary_json": {
+      "path": "PACKAGE_ROOT/api_main_full810_latest22_reference/input_integrity_summary.json",
+      "sha256": "1f7041251295f574100ff4c804ca21378377315b29fb2d5349b7439c63e60da6"
+    }
+  },
+  "anonymization": {
+    "generator_identity_in_prompt": false,
+    "original_llm_judge_scores_in_prompt": false,
+    "expert_scores_in_prompt": false,
+    "judge_prompt_input_columns": [
+      "item_id",
+      "domain",
+      "concept",
+      "task_type",
+      "generated_text"
+    ]
+  },
+  "decoding_controls": {
+    "temperature": 0,
+    "top_p": "omit unless API requires it; if forced, set to 1 and record",
+    "n_or_candidate_count": 1,
+    "stream": false,
+    "tools_enabled": false,
+    "web_search": false,
+    "retrieval_grounding": false,
+    "max_output_tokens": 800,
+    "seed": 20260514,
+    "seed_policy": "sent only for adapters where official API support is implemented; otherwise logged as unsupported"
+  },
+  "system_prompt": "你是科学科普内容评价者，需要评价文本是否准确、完整、清楚、符合任务、是否真正纠正常见误解，以及是否可能误导普通非专业读者。请严格按照 rubric 评分，只输出 JSON，不输出解释。",
+  "user_prompt_template": "请对下面这条匿名科普生成文本进行评分。\n\nitem_id: {item_id}\ndomain: {domain}\nconcept: {concept}\ntask_type: {task_type}\n\ngenerated_text:\n{generated_text}\n\n评分维度，所有分数必须为 1、2、3、4、5 中的整数：\n\n1. fa: factual accuracy，事实准确性。分数越高，科学事实越准确，越少出现错误、过度简化或不严谨表述。\n2. cc: concept completeness，概念完整性。分数越高，对核心概念、关键条件、边界或机制覆盖越完整。\n3. lc: language clarity，语言清晰度。分数越高，普通非专业读者越容易理解，表达越清楚、连贯、无歧义。\n4. tf: task fit，任务契合度。分数越高，越符合给定任务类型和概念说明的要求。\n5. mq: misconception handling，误解处理。分数越高，越能识别、纠正或避免常见误解，而不是强化误解。\n6. risk: misleading risk，误导风险。注意这是风险维度，分数越高表示越可能误导普通非专业读者。\n\n1/3/5 分锚点：\n\n- fa:\n  1 = 存在明显科学错误或关键事实颠倒。\n  3 = 大体正确但有重要遗漏、模糊或轻微误导。\n  5 = 准确、严谨，并避免不必要的过度简化。\n- cc:\n  1 = 几乎没有覆盖核心概念或机制。\n  3 = 覆盖部分核心点，但关键条件、机制或边界不完整。\n  5 = 核心概念、关键机制、条件和边界覆盖充分。\n- lc:\n  1 = 表达混乱、难以理解或明显有歧义。\n  3 = 基本可理解，但组织、术语或表述存在明显改进空间。\n  5 = 清楚、连贯、面向普通读者友好。\n- tf:\n  1 = 明显偏离任务或没有回应目标概念。\n  3 = 部分符合任务，但重点、深度或形式不完全匹配。\n  5 = 完全契合任务类型和目标概念。\n- mq:\n  1 = 未处理常见误解，或可能强化误解。\n  3 = 对误解有一定处理，但纠正不充分或不够明确。\n  5 = 明确、有效地纠正或预防常见误解。\n- risk:\n  1 = 几乎没有误导普通非专业读者的风险。\n  3 = 有一定误导风险，可能导致部分读者形成不完整或模糊理解。\n  5 = 高误导风险，容易让普通读者形成错误理解。\n\nJSON 输出格式必须严格如下。item_id 必须等于 \"{item_id}\"，judge_model 必须等于 \"{judge_model}\"：\n\n{{\n  \"item_id\": \"{item_id}\",\n  \"judge_model\": \"{judge_model}\",\n  \"paper_model_label\": \"{paper_model_label}\",\n  \"actual_api_model\": \"{actual_api_model}\",\n  \"fa\": 1,\n  \"cc\": 1,\n  \"lc\": 1,\n  \"tf\": 1,\n  \"mq\": 1,\n  \"risk\": 1\n}}",
+  "json_schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "item_id": {
+        "type": "string"
+      },
+      "judge_model": {
+        "type": "string"
+      },
+      "paper_model_label": {
+        "type": "string"
+      },
+      "actual_api_model": {
+        "type": "string"
+      },
+      "fa": {
+        "type": "integer",
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "cc": {
+        "type": "integer",
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "lc": {
+        "type": "integer",
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "tf": {
+        "type": "integer",
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "mq": {
+        "type": "integer",
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "risk": {
+        "type": "integer",
+        "enum": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "required": [
+      "item_id",
+      "judge_model",
+      "paper_model_label",
+      "actual_api_model",
+      "fa",
+      "cc",
+      "lc",
+      "tf",
+      "mq",
+      "risk"
+    ]
+  },
+  "providers": [
+    {
+      "provider": "openai",
+      "display_name": "OpenAI",
+      "paper_model_label": "GPT-5.5 Thinking",
+      "model": "gpt-5.5",
+      "endpoint": "https://api.openai.com/v1/responses",
+      "api_key_env": "OPENAI_API_KEY",
+      "api_style": "openai_responses",
+      "reasoning_effort": "high",
+      "response_format": "json_schema",
+      "temperature_support": "unsupported_not_set_for_gpt_5_5",
+      "seed_support": "unsupported_for_responses_adapter",
+      "model_list_endpoint": "https://api.openai.com/v1/models"
+    },
+    {
+      "provider": "gemini",
+      "display_name": "Google Gemini",
+      "paper_model_label": "Gemini 3.1 Pro",
+      "model": "gemini-3.1-pro",
+      "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+      "api_key_env": "GEMINI_API_KEY",
+      "api_style": "gemini_generate_content",
+      "thinking": "enabled_if_available",
+      "thinking_level": "low",
+      "thinking_note": "Gemini 3 thinking remains enabled; thinkingLevel=low is used to keep the fixed 800-token output cap from being consumed by hidden thinking tokens.",
+      "response_format": "application/json + responseJsonSchema",
+      "candidate_count": 1,
+      "seed_support": "supported",
+      "model_list_endpoint": "https://generativelanguage.googleapis.com/v1beta/models"
+    },
+    {
+      "provider": "kimi",
+      "display_name": "Moonshot Kimi",
+      "paper_model_label": "Kimi K2.6 Thinking",
+      "model": "kimi-k2.6-thinking",
+      "actual_api_model": "kimi-k2.6",
+      "endpoint": "https://api.moonshot.cn/v1/chat/completions",
+      "api_key_env": "MOONSHOT_API_KEY",
+      "api_style": "openai_compatible_chat",
+      "thinking": "enabled_if_available_by_model",
+      "temperature_override": 1,
+      "temperature_note": "Official kimi-k2.6 API rejects temperature=0 and allows only temperature=1; recorded as a provider limitation.",
+      "max_tokens_override": 8192,
+      "max_tokens_note": "Kimi thinking responses place reasoning_content and final content under the same max_tokens budget; 800 and then 4096 produced finish_reason=length before final JSON on some items.",
+      "request_timeout_seconds": 600,
+      "stream_override": true,
+      "stream_note": "Non-streaming kimi-k2.6 thinking calls repeatedly closed the connection before a response; streaming is used as an official provider transport limitation and aggregated into one JSON response.",
+      "response_format": "prompt_enforced_json",
+      "json_mode_note": "Kimi thinking models may not support JSON mode; adapter omits response_format and validates/retries parsed JSON",
+      "model_resolution_note": "Official model list returns kimi-k2.6 for the Kimi K2.6 family; paper label keeps Thinking as requested.",
+      "model_list_endpoint": "https://api.moonshot.cn/v1/models"
+    },
+    {
+      "provider": "deepseek",
+      "display_name": "DeepSeek",
+      "paper_model_label": "DeepSeek-V4 Expert Mode",
+      "model": "deepseek-v4",
+      "endpoint": "https://api.deepseek.com/chat/completions",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "api_style": "openai_compatible_chat",
+      "mode": "expert / reasoning mode if available",
+      "thinking": {
+        "type": "disabled"
+      },
+      "thinking_note": "Disabled to preserve the fixed max_tokens=800 JSON scoring protocol; DeepSeek thinking mode consumes max_tokens with reasoning_content and ignores temperature/top_p.",
+      "response_format": {
+        "type": "json_object"
+      },
+      "model_list_endpoint": "https://api.deepseek.com/models"
+    },
+    {
+      "provider": "doubao",
+      "display_name": "ByteDance / Doubao / Volcengine Ark",
+      "paper_model_label": "Doubao 2.0 Pro",
+      "model": "doubao-seed-2-0-pro-260215",
+      "endpoint": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+      "api_key_env": "ARK_API_KEY",
+      "api_style": "openai_compatible_chat",
+      "thinking": {
+        "type": "disabled"
+      },
+      "thinking_note": "Disabled for Doubao 2.0 Pro because high/default reasoning took about 350 seconds for one judge item and returned large reasoning_content; this preserves the fixed JSON scoring protocol and avoids chain-of-thought logging.",
+      "tool_choice": "none",
+      "response_format": "prompt_enforced_json",
+      "json_mode_note": "Doubao 2.0 Pro rejects response_format.type=json_object; fixed JSON output is enforced by prompt and validated/retried by the runner.",
+      "request_timeout_seconds": 300,
+      "model_resolution_note": "User requested Doubao 2.0 Pro after doubao-seed-1-6-250615 returned ModelNotOpen; exact official API id selected from Ark model list.",
+      "model_list_endpoint": "https://ark.cn-beijing.volces.com/api/v3/models"
+    },
+    {
+      "provider": "glm",
+      "display_name": "Zhipu GLM",
+      "paper_model_label": "GLM-5.1",
+      "model": "glm-5.1",
+      "endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+      "api_key_env": "ZHIPUAI_API_KEY",
+      "api_style": "openai_compatible_chat",
+      "thinking": {
+        "type": "enabled"
+      },
+      "do_sample": false,
+      "temperature_note": "temperature/top_p may be ignored when do_sample=false",
+      "max_tokens_override": 2000,
+      "max_tokens_note": "GLM-5.1 default thinking consumed the 800-token budget before final JSON; override is logged as a provider-specific reasoning-token limit",
+      "request_timeout_seconds": 300,
+      "response_format": {
+        "type": "json_object"
+      },
+      "model_list_endpoint": "https://open.bigmodel.cn/api/paas/v4/models"
+    },
+    {
+      "provider": "qwen",
+      "display_name": "Alibaba Qwen",
+      "paper_model_label": "Qwen3.5 Thinking",
+      "model": "qwen3.5-plus",
+      "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+      "api_key_env": "DASHSCOPE_API_KEY",
+      "api_style": "openai_compatible_chat",
+      "thinking": "enabled_via_enable_thinking_true",
+      "enable_thinking": true,
+      "thinking_budget": 256,
+      "model_selection_note": "The official DashScope model list does not contain qwen3.5-thinking. Alibaba documentation lists Qwen3.5 Plus as a hybrid thinking model; enable_thinking=true is used for the Qwen3.5 Thinking paper label.",
+      "stream_override": true,
+      "stream_note": "Alibaba recommends streaming for deep-thinking mode and non-streaming timed out/closed connections in pilot testing.",
+      "stream_options": {
+        "include_usage": true
+      },
+      "response_format": {
+        "type": "json_object"
+      },
+      "model_list_endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1/models"
+    },
+    {
+      "provider": "anthropic",
+      "display_name": "Anthropic Claude",
+      "paper_model_label": "Claude Sonnet 4.6",
+      "model": "claude-sonnet-4-6",
+      "endpoint": "https://api.anthropic.com/v1/messages",
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "api_style": "anthropic_messages",
+      "thinking": "enabled_if_available",
+      "top_p": "omitted",
+      "response_format": "prompt_enforced_json",
+      "model_list_endpoint": "https://api.anthropic.com/v1/models"
+    },
+    {
+      "provider": "mimo",
+      "display_name": "Xiaomi Mimo",
+      "paper_model_label": "Mimo v2.5 Pro",
+      "model": "mimo-v2.5-pro",
+      "endpoint": "https://api.xiaomimimo.com/v1/chat/completions",
+      "api_key_env": "MIMO_API_KEY",
+      "api_style": "openai_compatible_chat",
+      "thinking": "enabled_if_available_by_model",
+      "response_format": {
+        "type": "json_object"
+      },
+      "model_list_endpoint": "https://api.xiaomimimo.com/v1/models"
+    }
+  ],
+  "software": {
+    "python": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "pandas": "3.0.2"
+  },
+  "official_docs_consulted": [
+    "https://platform.openai.com/docs/api-reference/responses",
+    "https://platform.openai.com/docs/guides/structured-outputs",
+    "https://docs.anthropic.com/en/api/messages",
+    "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+    "https://ai.google.dev/gemini-api/docs/structured-output",
+    "https://api-docs.deepseek.com/api/create-chat-completion",
+    "https://api-docs.deepseek.com/guides/json_mode",
+    "https://help.aliyun.com/zh/model-studio/qwen-api-via-dashscope",
+    "https://docs.bigmodel.cn/cn/guide/capabilities/struct-output",
+    "https://docs.bigmodel.cn/cn/guide/models/text/glm-4.7",
+    "https://platform.moonshot.cn/blog/posts/kimi-thinking",
+    "https://www.volcengine.com/docs/6492/2192011",
+    "https://mimo.mi.com/",
+    "https://platform.xiaomimimo.com/"
+  ],
+  "alignment_summary_preview": [
+    {
+      "source": "api_mean_full810",
+      "target": "human_quality",
+      "n": 180,
+      "pearson_r": -0.33476272533270834,
+      "pearson_p": 4.363925948464588e-06,
+      "spearman_r": -0.30046464433220066,
+      "spearman_p": 4.1642566440578625e-05
+    },
+    {
+      "source": "api_mean_full810",
+      "target": "human_risk",
+      "n": 180,
+      "pearson_r": -0.23946168601788254,
+      "pearson_p": 0.0012055293326066333,
+      "spearman_r": -0.242433661854138,
+      "spearman_p": 0.0010418130099932692
+    },
+    {
+      "source": "web_interface_mean",
+      "target": "human_quality",
+      "n": 180,
+      "pearson_r": 0.03175366203895607,
+      "pearson_p": 0.6721793663144564,
+      "spearman_r": 0.005316757337885683,
+      "spearman_p": 0.9435288094667452
+    },
+    {
+      "source": "web_interface_mean",
+      "target": "human_risk",
+      "n": 180,
+      "pearson_r": -0.00795445193032841,
+      "pearson_p": 0.9155995254694315,
+      "spearman_r": 0.005799851480224787,
+      "spearman_p": 0.9384073895876444
+    }
+  ],
+  "risk_floor_summary_preview": [
+    {
+      "source": "api_mean",
+      "judge_provider": "all_successful_api_judges",
+      "n": 810,
+      "mean_risk": 2.3943758573388205,
+      "risk_floor_eq_1_rate": 0.0037037037037037,
+      "risk_near_floor_le_1_5_rate": 0.1580246913580247,
+      "risk_le_2_rate": 0.4345679012345679
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "anthropic",
+      "n": 810,
+      "mean_risk": 3.6222222222222222,
+      "risk_floor_eq_1_rate": 0.0086419753086419,
+      "risk_near_floor_le_1_5_rate": 0.0086419753086419,
+      "risk_le_2_rate": 0.2024691358024691
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "deepseek",
+      "n": 810,
+      "mean_risk": 2.8123456790123456,
+      "risk_floor_eq_1_rate": 0.2641975308641975,
+      "risk_near_floor_le_1_5_rate": 0.2641975308641975,
+      "risk_le_2_rate": 0.5925925925925926
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "doubao",
+      "n": 810,
+      "mean_risk": 3.1,
+      "risk_floor_eq_1_rate": 0.1037037037037037,
+      "risk_near_floor_le_1_5_rate": 0.1037037037037037,
+      "risk_le_2_rate": 0.4802469135802469
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "gemini",
+      "n": 810,
+      "mean_risk": 1.693827160493827,
+      "risk_floor_eq_1_rate": 0.6135802469135803,
+      "risk_near_floor_le_1_5_rate": 0.6135802469135803,
+      "risk_le_2_rate": 0.8345679012345679
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "glm",
+      "n": 810,
+      "mean_risk": 1.5703703703703704,
+      "risk_floor_eq_1_rate": 0.7037037037037037,
+      "risk_near_floor_le_1_5_rate": 0.7037037037037037,
+      "risk_le_2_rate": 0.7876543209876543
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "kimi",
+      "n": 810,
+      "mean_risk": 1.7345679012345678,
+      "risk_floor_eq_1_rate": 0.5962962962962963,
+      "risk_near_floor_le_1_5_rate": 0.5962962962962963,
+      "risk_le_2_rate": 0.7160493827160493
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "mimo",
+      "n": 810,
+      "mean_risk": 1.6037037037037036,
+      "risk_floor_eq_1_rate": 0.6444444444444445,
+      "risk_near_floor_le_1_5_rate": 0.6444444444444445,
+      "risk_le_2_rate": 0.854320987654321
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "openai",
+      "n": 810,
+      "mean_risk": 2.7925925925925927,
+      "risk_floor_eq_1_rate": 0.1444444444444444,
+      "risk_near_floor_le_1_5_rate": 0.1444444444444444,
+      "risk_le_2_rate": 0.5456790123456791
+    },
+    {
+      "source": "api_single_judge",
+      "judge_provider": "qwen",
+      "n": 810,
+      "mean_risk": 2.619753086419753,
+      "risk_floor_eq_1_rate": 0.3765432098765432,
+      "risk_near_floor_le_1_5_rate": 0.3765432098765432,
+      "risk_le_2_rate": 0.5876543209876544
+    },
+    {
+      "source": "web_interface_mean",
+      "judge_provider": "web_interface_panel_mean",
+      "n": 810,
+      "mean_risk": 1.01320987654321,
+      "risk_floor_eq_1_rate": 0.9296296296296296,
+      "risk_near_floor_le_1_5_rate": 0.9987654320987654,
+      "risk_le_2_rate": 1.0
+    }
+  ],
+  "updated_at": "2026-06-20T23:30:00+08:00",
+  "n_generated_items": 810,
+  "n_human_audit_reference_items": 180,
+  "n_human_audit_item_level_ratings": 792,
+  "quality_score_definition": "Primary quality = mean(fa, cc, lc, tf, mq). Web-interface overall is not used as primary quality in the revised analysis.",
+  "api_input_integrity_caveat": {
+    "n_items": 810,
+    "n_integrity_pass": 540,
+    "n_integrity_fail": 270,
+    "task_c_integrity_pass": 0,
+    "task_c_answer_label_only": 270,
+    "interpretation": "Task-C API-main judge inputs are answer-label-only despite full quiz payloads in the source corpus. Task-C API scores are retained as an input-serialization/task-format diagnostic, not as calibrated quiz-item judging evidence."
+  }
+}

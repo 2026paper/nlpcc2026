@@ -1,0 +1,271 @@
+{
+  "merged_at": "2026-05-30T07:13:21+00:00",
+  "rule": "dedupe by item_id + judge_provider; prefer parse_success true; among same success status prefer newer source file/row",
+  "backup_before_merge": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527/api_judge_scores_long.pre_merge_backup_20260530_151320.csv",
+  "source_files": [
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/deepseek/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/doubao/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/mimo/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/qwen/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks/chunk_04/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks/chunk_02/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks/chunk_01/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks/chunk_03/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/anthropic/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/glm/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks_round2/chunk_05/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks_round2/chunk_04/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks_round2/chunk_03/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks_round2/chunk_01/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks_round2/chunk_06/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks_round2/chunk_02/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_single_retry_missing/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_key_rotation/key_01/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/openai_quota_test/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_key_rotation/key_02/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/openai/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/openai_env_override_resume_20260528_165410/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_current_ip_resume_20260528_161815/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_single_item_probe/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_one_by_one_cd_20260528_181900/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_process_per_item_cd_20260528_182600/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_process_per_item_cd_20260528_182338_continue/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_process_per_item_cd_20260528_182648_block_audit/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_process_per_item_a8_fullrun_20260529_1137/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_process_per_item_new_google_key_20260530_1434/api_judge_scores_long.csv",
+    "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_single_process_new_google_key_20260530_1440/api_judge_scores_long.csv"
+  ],
+  "source_file_details": [
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/deepseek/api_judge_scores_long.csv",
+      "rows": 2266,
+      "mtime": "2026-05-27T18:07:43"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/doubao/api_judge_scores_long.csv",
+      "rows": 2266,
+      "mtime": "2026-05-27T18:12:38"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi/api_judge_scores_long.csv",
+      "rows": 1659,
+      "mtime": "2026-05-27T18:14:39"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/mimo/api_judge_scores_long.csv",
+      "rows": 2266,
+      "mtime": "2026-05-27T18:15:52"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/qwen/api_judge_scores_long.csv",
+      "rows": 2266,
+      "mtime": "2026-05-27T18:23:08"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini/api_judge_scores_long.csv",
+      "rows": 1971,
+      "mtime": "2026-05-27T18:43:41"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks/chunk_04/api_judge_scores_long.csv",
+      "rows": 1703,
+      "mtime": "2026-05-27T18:58:49"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks/chunk_02/api_judge_scores_long.csv",
+      "rows": 1699,
+      "mtime": "2026-05-27T18:59:06"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks/chunk_01/api_judge_scores_long.csv",
+      "rows": 1696,
+      "mtime": "2026-05-27T18:59:29"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks/chunk_03/api_judge_scores_long.csv",
+      "rows": 1702,
+      "mtime": "2026-05-27T18:59:31"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/anthropic/api_judge_scores_long.csv",
+      "rows": 2277,
+      "mtime": "2026-05-27T19:10:08"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/glm/api_judge_scores_long.csv",
+      "rows": 2266,
+      "mtime": "2026-05-27T19:18:37"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks_round2/chunk_05/api_judge_scores_long.csv",
+      "rows": 1897,
+      "mtime": "2026-05-27T20:07:39"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks_round2/chunk_04/api_judge_scores_long.csv",
+      "rows": 1897,
+      "mtime": "2026-05-27T20:08:49"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks_round2/chunk_03/api_judge_scores_long.csv",
+      "rows": 1897,
+      "mtime": "2026-05-27T20:11:12"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks_round2/chunk_01/api_judge_scores_long.csv",
+      "rows": 1897,
+      "mtime": "2026-05-27T20:14:27"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks_round2/chunk_06/api_judge_scores_long.csv",
+      "rows": 1896,
+      "mtime": "2026-05-27T20:15:16"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_chunks_round2/chunk_02/api_judge_scores_long.csv",
+      "rows": 1897,
+      "mtime": "2026-05-27T20:28:11"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/kimi_single_retry_missing/api_judge_scores_long.csv",
+      "rows": 19841,
+      "mtime": "2026-05-27T20:31:26"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_key_rotation/key_01/api_judge_scores_long.csv",
+      "rows": 2039,
+      "mtime": "2026-05-27T21:01:49"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/openai_quota_test/api_judge_scores_long.csv",
+      "rows": 1706,
+      "mtime": "2026-05-28T15:11:49"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_key_rotation/key_02/api_judge_scores_long.csv",
+      "rows": 4111,
+      "mtime": "2026-05-28T15:16:00"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/openai/api_judge_scores_long.csv",
+      "rows": 2255,
+      "mtime": "2026-05-28T16:02:10"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/openai_env_override_resume_20260528_165410/api_judge_scores_long.csv",
+      "rows": 810,
+      "mtime": "2026-05-28T17:25:57"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_current_ip_resume_20260528_161815/api_judge_scores_long.csv",
+      "rows": 609,
+      "mtime": "2026-05-28T17:52:08"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_single_item_probe/api_judge_scores_long.csv",
+      "rows": 1,
+      "mtime": "2026-05-28T18:12:09"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_one_by_one_cd_20260528_181900/api_judge_scores_long.csv",
+      "rows": 1,
+      "mtime": "2026-05-28T18:13:26"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_process_per_item_cd_20260528_182600/api_judge_scores_long.csv",
+      "rows": 4,
+      "mtime": "2026-05-28T18:21:05"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_process_per_item_cd_20260528_182338_continue/api_judge_scores_long.csv",
+      "rows": 1,
+      "mtime": "2026-05-28T18:24:12"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_process_per_item_cd_20260528_182648_block_audit/api_judge_scores_long.csv",
+      "rows": 1,
+      "mtime": "2026-05-28T18:27:19"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_process_per_item_a8_fullrun_20260529_1137/api_judge_scores_long.csv",
+      "rows": 1,
+      "mtime": "2026-05-29T11:38:14"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527/api_judge_scores_long.csv",
+      "rows": 7084,
+      "mtime": "2026-05-29T11:40:46"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_process_per_item_new_google_key_20260530_1434/api_judge_scores_long.csv",
+      "rows": 21,
+      "mtime": "2026-05-30T14:39:34"
+    },
+    {
+      "path": "WITHHELD_LOCAL_API_RUNS/api_judge_full810_incremental_20260527_provider_runs/gemini_single_process_new_google_key_20260530_1440/api_judge_scores_long.csv",
+      "rows": 810,
+      "mtime": "2026-05-30T15:12:23"
+    }
+  ],
+  "output_rows": 7290,
+  "total_items": 810,
+  "provider_summary": [
+    {
+      "judge_provider": "openai",
+      "successful_unique_items": 810,
+      "pending_success": 0,
+      "failed_or_blocked_rows_retained": 0
+    },
+    {
+      "judge_provider": "gemini",
+      "successful_unique_items": 810,
+      "pending_success": 0,
+      "failed_or_blocked_rows_retained": 0
+    },
+    {
+      "judge_provider": "kimi",
+      "successful_unique_items": 810,
+      "pending_success": 0,
+      "failed_or_blocked_rows_retained": 0
+    },
+    {
+      "judge_provider": "deepseek",
+      "successful_unique_items": 810,
+      "pending_success": 0,
+      "failed_or_blocked_rows_retained": 0
+    },
+    {
+      "judge_provider": "doubao",
+      "successful_unique_items": 810,
+      "pending_success": 0,
+      "failed_or_blocked_rows_retained": 0
+    },
+    {
+      "judge_provider": "glm",
+      "successful_unique_items": 810,
+      "pending_success": 0,
+      "failed_or_blocked_rows_retained": 0
+    },
+    {
+      "judge_provider": "qwen",
+      "successful_unique_items": 810,
+      "pending_success": 0,
+      "failed_or_blocked_rows_retained": 0
+    },
+    {
+      "judge_provider": "anthropic",
+      "successful_unique_items": 810,
+      "pending_success": 0,
+      "failed_or_blocked_rows_retained": 0
+    },
+    {
+      "judge_provider": "mimo",
+      "successful_unique_items": 810,
+      "pending_success": 0,
+      "failed_or_blocked_rows_retained": 0
+    }
+  ]
+}

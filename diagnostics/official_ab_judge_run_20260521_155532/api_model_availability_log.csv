@@ -1,0 +1,3 @@
+judge_provider,paper_model_label,judge_model_requested,actual_api_model,api_endpoint,model_list_endpoint,model_list_status,model_list_count,checked_at,available,reason,successful_calls,failed_calls
+gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent,https://generativelanguage.googleapis.com/v1beta/models,200.0,50.0,2026-05-21T08:53:58+00:00,True,"model_list_preferred_non_customtools_variant: gemini-3.1-pro-preview, gemini-3.1-pro-preview-customtools",,
+gemini,Gemini 3.1 Pro,gemini-3.1-pro,gemini-3.1-pro-preview,https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent,,,,2026-05-21T08:55:17+00:00,True,ok,16.0,0.0
