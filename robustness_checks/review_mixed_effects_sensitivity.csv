@@ -1,0 +1,3 @@
+model,predictor,note,n,coef,se,p,groups_concepts,converged
+quality,mean_llm_quality,LinAlgError('Singular matrix'),180,,,,,
+risk,mean_llm_risk,,180,1.3383144123931825,0.7084552023075278,0.05888378417332481,30.0,False

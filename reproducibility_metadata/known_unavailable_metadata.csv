@@ -1,0 +1,10 @@
+﻿metadata_field,stage,status,recommended_future_action
+exact_generator_model_version,generation,recovered from user confirmation that generators used the same exact labels as judges on 2026-05-13; not independently verified against provider logs,preserve original web transcript or provider run log together with the metadata package
+exact_judge_model_version,automated judging,recovered from user-provided judge-model table on 2026-05-13; not independently verified against provider logs,preserve original run log or screenshot together with the metadata package
+api_or_web_interface,generation and judging,recorded as web interface based on user confirmation on 2026-05-13; exact web product build/session identifiers are unavailable,"save web conversation URL/export, access date, screenshot, and HTML/PDF transcript for each run"
+web_session_transcript_or_session_id,generation and judging,not recoverable from frozen files,archive web-session transcript or session ID at collection time
+hidden_decoding_parameters,generation and judging,not recoverable from frozen files,"store temperature, top_p, max_tokens, seed, and system-prompt settings in a machine-readable run log"
+per_call_request_response_retry_log,web generation and web judging,partially unavailable; final raw generation and score files are preserved,save full request/response/retry JSON for every web-interface model call
+redacted_api_call_audit,official API replication,available as redacted call-level audit; full raw provider responses withheld,preserve raw provider logs privately and release only credential-free redacted derivatives for blind review
+per_call_identity_masking_audit,automated judging,partially recoverable at anonymized-input and prompt-template level; per-call audits are unavailable,save judge input file and withheld mapping hash for each judge run
+senior_expert_adjudication,expert validation,not part of original validation design,add adjudication log for high-disagreement items

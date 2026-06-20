@@ -1,0 +1,13 @@
+field,value,notes
+metadata_scope,current_human_audit_and_historical_flags,This file documents the current 22-questionnaire human-audit layer and flags earlier pilot exports as historical only.
+current_main_human_layer,api_main_full810_latest22_reference/,The current manuscript defines the human-audit layer by the single 2026-05-30 22-questionnaire export batch in this directory.
+collection_platform,Credamo/见数,Questionnaires were collected through the Credamo/见数 online survey platform.
+compensation,RMB 15 per completed questionnaire,Compensation was paid for completed questionnaires.
+consent_and_ethics,informed consent in questionnaire front matter; voluntary anonymous submission,"Participants were informed of academic research use, anonymization, and compensation before submission; raw platform identifiers are withheld."
+scoring_mode,independent blinded scoring,"Validators did not see model names, generator identities, LLM-judge scores, or other validators' ratings."
+historical_completed_questionnaires,50,Earlier pilot exports retained under archive_historical/ for auditability only.
+historical_primary_validators,48,Not pooled into the current revised main analysis.
+historical_primary_item_level_evaluations,1728,Not used for the current manuscript's headline results.
+current_main_questionnaires,22,See api_main_full810_latest22_reference/latest_human_rater_metadata_anonymized.csv.
+current_main_item_level_evaluations,792,See api_main_full810_latest22_reference/human_audit_latest22_scores_long.csv.
+current_main_reliability,"SB quality 0.372; risk 0.082",Reported as a limitation of the current human-audit layer.

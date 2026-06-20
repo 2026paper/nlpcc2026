@@ -1,0 +1,36 @@
+file,file_role,expected_rows_or_units,notes
+main_study_data/generated_items_810.csv,current_main/generated_corpus,810 items,Chinese generated items used by the main study; source corpus contains full Task-C quiz payloads.
+main_study_data/llm_judge_scores_6929.csv,auxiliary/web_interface_scores,6929 parsed valid score rows; 6839 deduplicated valid judge-item pairs,Parsed web-interface LLM judge ratings; auxiliary comparison only.
+api_main_full810_latest22_reference/api_judge_scores_long_7290_redacted.csv,current_main/API_long_matrix,7290 score rows,"Redacted long API score matrix, one row per successful API judge-item pair."
+api_main_full810_latest22_reference/api_full810_item_mean_scores_with_source.csv,current_main/API_item_means,810 item-level rows; 9 API judges per item,"Full-corpus API judging matrix aggregated to item means; primary quality uses mean(FA, CC, LC, TF, MQ)."
+api_main_full810_latest22_reference/full810_provider_completion_summary.csv,current_main/API_completion,9 providers,Each provider has 810 successful unique items.
+api_main_full810_latest22_reference/api_call_audit_summary_full810_by_provider.csv,current_main/API_audit_summary,9 providers,Full810 provider-level audit summary derived from the frozen long score matrix.
+api_main_full810_latest22_reference/api_call_audit_summary_resume_block_628items.csv,current_main/API_resume_block_audit,9 providers,Incremental call-attempt audit for a resume block; not the full810 completion table.
+api_main_full810_latest22_reference/judge_inputs_anonymized_810.csv,current_main/API_input,810 anonymized inputs,Actual anonymized inputs used by the API-main judge run.
+api_main_full810_latest22_reference/input_integrity_report.csv,current_main/input_integrity,810 rows,Item-level audit; all Task-C API-main inputs are answer-label-only.
+api_main_full810_latest22_reference/input_integrity_summary.json,current_main/input_integrity,JSON object,Aggregate input-integrity summary and Task-C diagnostic-only interpretation.
+api_main_full810_latest22_reference/alignment_sensitivity_excluding_task_c_latest22.csv,current_main/A_B_sensitivity,12 rows,Separates all-task results from Task A/B-only alignment because Task-C API rows are diagnostic-only.
+api_main_full810_latest22_reference/human_audit_latest22_scores_long.csv,current_main/human_audit,792 item-level ratings,Single current 22-questionnaire export batch.
+api_main_full810_latest22_reference/human_audit_latest22_item_means.csv,current_main/human_audit,180 items,Human-audit means for the reference subset.
+api_main_full810_latest22_reference/human_audit_latest22_reliability_by_domain.csv,current_main/human_audit_reliability,10 rows,Domain-level pairwise reliability summary for the current human-audit layer.
+api_main_full810_latest22_reference/latest_human_rater_metadata_anonymized.csv,current_main/human_audit_metadata,22 questionnaire rows,Anonymized rater metadata for the current batch.
+api_main_full810_latest22_reference/alignment_summary_latest22.csv,current_main/alignment_summary,4 rows,API/Web alignment against the current 22-questionnaire human-audit reference.
+api_main_full810_latest22_reference/api_web_alignment_items_latest22.csv,current_main/alignment_items,180 items,"Item-level API, Web, and human-audit means; web quality uses five-dimension mean."
+api_main_full810_latest22_reference/alignment_summary_latest19_domain_qualified_sensitivity.csv,current_main/familiarity_sensitivity,4 rows,Alignment summary using the 19-questionnaire familiarity-qualified subset.
+api_main_full810_latest22_reference/api_web_alignment_items_latest19_domain_qualified_sensitivity.csv,current_main/familiarity_sensitivity_items,180 items,Item-level table for the familiarity-qualified sensitivity check.
+api_main_full810_latest22_reference/task_stratified_alignment_latest22.csv,current_main/task_stratified_alignment,12 rows,Within-task alignment checks; Task-C rows carry the input-integrity caveat.
+api_main_full810_latest22_reference/residualized_alignment_latest22.csv,current_main/residualized_alignment,16 rows,"Residualized Spearman checks controlling task, domain, concept, and generator variables."
+api_main_full810_latest22_reference/api_provider_alignment_latest22.csv,current_main/provider_alignment,18 rows,Provider-level API alignment against the current human-audit layer.
+api_main_full810_latest22_reference/dimension_gap_summary_latest22.csv,current_main/figure_input,12 rows,Dimension-level gap inputs for Fig. 2.
+api_main_full810_latest22_reference/stats_summary_latest22_only.json,current_main/summary_metadata,JSON object,"Headline counts, correlations, reliability, scale diagnostics, and input-integrity caveat."
+api_main_full810_latest22_reference/api_reproducibility_metadata.json,current_main/API_metadata,JSON object,"Provider settings, prompts, schema, logical package paths, and input-integrity caveat."
+api_main_full810_latest22_reference/merge_source_files.json,current_main/API_merge_provenance,JSON object,Sanitized logical provenance for provider-run merge and deduplication.
+diagnostics/controlled_ab_pairs_for_llm_judge.json,auxiliary/A_B_diagnostic,8 pairs,Researcher-constructed local contrast diagnostic.
+diagnostics/official_ab_judge_run_20260521_155532/official_ab_judge_scores_long_with_metadata.csv,auxiliary/A_B_API_scores,144 version-level score rows,9 API judges x 8 A/B pairs x 2 versions.
+archive_historical/api_replication_180_item/,historical_archive/API180,folder,Superseded 180-item API replication retained for audit continuity only.
+archive_historical/human_pilot_50/,historical_archive/human_pilot,folder,Earlier expanded-reference files not pooled into the current revised main analysis.
+archive_historical/expanded_reference_50_response/,historical_archive/expanded_reference,folder,Historical expanded-reference robustness files not used in the revised main analysis.
+robustness_checks/review_human_reliability_by_dimension.csv,historical_or_auxiliary/reliability,6 dimensions,Historical expanded-reference reliability diagnostic retained for audit continuity.
+robustness_checks/professional_split_half_reliability.csv,historical_or_auxiliary/reliability,12 rows,Historical expanded-reference split-half diagnostic retained for audit continuity.
+robustness_checks/rater_count_and_agreement_sensitivity.csv,historical_or_auxiliary/sensitivity,4 subsets,Historical expanded-reference sensitivity diagnostic retained for audit continuity.
+robustness_checks/science_relevant_quality_sensitivity.csv,historical_or_auxiliary/sensitivity,1 row,Historical expanded-reference quality sensitivity diagnostic retained for audit continuity.

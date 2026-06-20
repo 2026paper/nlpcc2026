@@ -1,0 +1,20 @@
+field,description,status
+run_id,unique id for each generation or judging run,required
+stage,generation / automated_judging / expert_validation,required
+item_id,anonymous item id when applicable,required
+concept_id,concept id C01-C30,required
+task,A/B/C,required
+model_family,provider family label,required
+exact_model_version,provider model id or snapshot,required_future
+interface,API endpoint or web product,required_future
+run_datetime_utc,timestamp of call or survey export,required_future
+temperature,decoding temperature,required_future
+top_p,nucleus sampling parameter,required_future
+max_tokens,generation limit,required_future
+system_prompt,full system prompt,required_future
+user_prompt_file,prompt template path or hash,required
+input_file,file sent to model or survey platform,required
+raw_response_file,raw model response or survey export,required
+parser_script,script used to parse raw response,required
+identity_masked,whether generator identity was hidden,required
+notes,manual notes on failures/retries,optional

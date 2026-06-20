@@ -1,0 +1,69 @@
+{
+  "file_role": "historical_robustness_summary_not_headline_analysis",
+  "revised_main_reference": "api_main_full810_latest22_reference/human_audit_latest22_scores_long.csv",
+  "revised_main_alignment_summary": "api_main_full810_latest22_reference/alignment_summary_latest22.csv",
+  "n_items": 180,
+  "completed_professional_questionnaires": 50,
+  "primary_validators": 48,
+  "primary_professional_item_level_evaluations": 1728,
+  "professional_ratings_per_item_distribution": {
+    "8": 36,
+    "10": 144
+  },
+  "web_judge_expected_pairs": 7290,
+  "web_judge_parsed_valid_rows": 6929,
+  "web_judge_duplicate_rows_collapsed": 90,
+  "web_judge_deduplicated_valid_pairs": 6839,
+  "alignment_against_expanded_reference": {
+    "web_quality": {
+      "n": 180,
+      "pearson_r": 0.0205418528166005,
+      "spearman_r": -0.0312128183615808
+    },
+    "web_risk": {
+      "n": 180,
+      "pearson_r": 0.3027083830572976,
+      "spearman_r": 0.2318532474448988
+    },
+    "api_quality": {
+      "n": 180,
+      "pearson_r": -0.1638233147727413,
+      "spearman_r": -0.1587851623701065
+    },
+    "api_risk": {
+      "n": 180,
+      "pearson_r": -0.0312604284645986,
+      "spearman_r": -0.1244915508011987
+    }
+  },
+  "risk_scale_diagnostics": {
+    "web_risk_item_floor_rate_professional_reference": 0.9388888888888889,
+    "web_risk_raw_floor_rate_valid_ratings": 0.99,
+    "api_mean_risk_floor_eq_1_rate": 0.0,
+    "api_mean_risk_near_floor_le_1_5_rate": 0.16111111111111112,
+    "api_mean_risk_le_2_rate": 0.46111111111111114
+  },
+  "professional_reliability": {
+    "repeated_check_abs_diff_quality": 0.381,
+    "repeated_check_abs_diff_risk": 0.375,
+    "domain_rater_pairwise_spearman_quality": 0.314,
+    "domain_rater_pairwise_spearman_risk": 0.274,
+    "overall_split_half_spearman_brown_quality": 0.8913182677236241,
+    "overall_split_half_spearman_brown_risk": 0.7161603309860642,
+    "domain_level_split_half_file": "robustness_checks/professional_split_half_reliability.csv"
+  },
+  "known_limitations": [
+    "Raw survey workbooks and platform answer identifiers are withheld to preserve participant anonymity.",
+    "Original web-interface session transcripts, hidden system prompts, and hidden decoding parameters are unavailable.",
+    "Historical 180-item API replication files are retained for audit continuity and are superseded by the complete API810 main-analysis files."
+  ],
+  "notes": "Historical expanded-reference robustness summary retained for audit continuity only; it is not the revised manuscript headline analysis. The revised manuscript uses API810 plus the limited latest22 human-audit reference in api_main_full810_latest22_reference/, with Task-C API-main scores treated as diagnostic-only after the input-integrity audit.",
+  "historical_reference_scope": "historical_expanded_professional_reference_not_used_in_revised_main_analysis",
+  "historical_files": {
+    "professional_reference_scores": "archive_historical/human_pilot_50/professional_reference_scores_1728_expanded.csv",
+    "item_level_alignment": "archive_historical/human_pilot_50/human_ai_item_alignment_180_expanded_reference.csv",
+    "web_judge_scores": "main_study_data/llm_judge_scores_6929.csv",
+    "api_alignment_summary": "archive_historical/api_replication_180_item/api_expert_alignment_summary_expanded_reference.csv",
+    "expanded_reference_diagnostics": "archive_historical/expanded_reference_50_response/"
+  }
+}
